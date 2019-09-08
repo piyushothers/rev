@@ -1,0 +1,31 @@
+September 7th
+==============
+
+1.Kruskal algorithm 2.Prim's algorithm 3.running time for insertion and pop from a heap 4. how to make a stream for finite for loops 5.heap implementation for any comparable object  GridOfManyXors - did everything right but still the solution doesn't work leave it v(logV) + ElogV why is prim algorithm mmm - moniker - an informal name
+
+
+8th
+====
+following components to be provided by reactive stream implementations
+	- Publisher 
+	- Subscriber
+	- Subscription
+	- Processor
+	
+- publishers cannot signal more elements than subscribers have requested.
+
+Concurrent linked queue ? 
+all the collections in java.util.concurrent and what are they used for ? 
+
+concurrent linked queue 
+	- iterators are weakly consistent 
+	- size method is not a constant time operation as it requires traversal 
+	- memory consistency effects: actions in a thread prior to placing an object into a Concurrent Linked Queue happen-before actions subsequent to the access or removal of that element from the ConcurrentLinkedQueue in another thread. 
+
+what is compare and set operation ?  implementation of concurrent linked queue ? how is garbage collection done ? java memory model  ? what is sun.misc.UNSAFE ? 
+https://dzone.com/articles/understanding-sunmiscunsafe . what are class loaders . how is class loading done in java . how does sun.misc.UNSAFE guarantee that it is only called from its own internal classes. reflectionfactory in java . how to create a class in java without calling its constructor . 
+
+
+sun.misc.unsafe 
+	- singleton instance is loaded in a private static field called theUnsafe.
+	- 
