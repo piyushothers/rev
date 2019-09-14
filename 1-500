@@ -1,0 +1,386 @@
+1.
+Methods defined in object class 
+https://en.wikibooks.org/wiki/Java_Programming/API/java.lang.Object
+1.a use of wait,notify and notifyAll in threads
+wait() tells the current thread to give up the monitor and go to sleep until some other thread enters the same monitor and calls notify . 
+- wait can only be called inside a synchronized block 
+
+- https://stackoverflow.com/questions/2779484/why-must-wait-always-be-in-synchronized-block
+- if we don't want to use wait() we'll need a code something like this 
+	while(!conditionToMoveAheadGetsSatisfied){
+	
+	}
+	- above code will use up all of the cpu power available , so its better to do something like 
+	while(!conditionToMoveAheadGetsSatisfied()){
+		monitoredObject.wait()
+	}
+	
+	- there is however a little catch , just after the conditionToMoveAheadGetsSatisfied() is checked and just before the monitoredObject.wait() is executed , 
+	conditionToMoveAhead becomes true , that is the thread in question can go to sleep even when it shouldn't have . the condition is generally set by another thread which does something like this , 
+	while(conditionToMoveAheadGetsSatisfied){
+		monitoredObject.wait();
+	}
+	
+	- so it might become possible that both the threads go to sleep and program comes to a halt , it is therefore required that only of them is working at a time which is ensured by the synchronized block . 
+	
+2.Marker interfaces , examples and uses 
+
+3.Comparable vs comparator
+
+4.java thread lifecycle
+- new , runnable , running , blocked/waiting/sleep , dead 
+
+5.available methods on thread class 
+
+6.synchronized block vs synchronized method , what is the monitor for a static synchronized object 
+
+7.can a server run 2 JVM's at a time  . If yes , will a class get loaded on both the jvm's at a time 
+
+8.types of locks available in java 8.
+		- ReentractLock 
+			- tryLock
+			- isHeldByCurrentThread
+			- isLocked
+		- ReadWriteLock
+		- StampedLock
+		- Semaphore
+		- 
+		
+9.Thread enabled structures 
+		- ArrayBlockingQueue
+		- DoubleEndedQueue(Interface)
+		
+		method nature
+		//take/put - do the specified operation and wait if the element is not available ( patient , do their work , don't create a fuss)
+		// add/element/getFirst/getLast/push/remove - do the specified operation , get shot in the head if not possible to do so ( very angry , work or exception)
+		// offer/peek/poll - option to do the specified work , if not possible simply come and state that they couldn't do their work 
+		// remove - normal work except that the element specified should have its integrity ( compatible class , not null)
+		// pop - no such element if queue is empty 
+		// 
+		
+10.hashmap vs treemap vs linkedhashmap 
+			- hashmap implementation has been changed 
+			  - when bins get too large, they are transformed into bins of 					* TreeNodes, each structured similarly to those in      * java.util.TreeMap.
+			  - Tree bins (i.e., bins whose elements are all TreeNodes) are      * ordered primarily by hashCode, but in the case of ties, if two      * elements are of the same "class C implements Comparable<C>",      * type then their compareTo method is used for ordering.
+			  -      * Because TreeNodes are about twice the size of regular nodes, we      * use them only when bins contain enough nodes to warrant use      * (see TREEIFY_THRESHOLD). And when they become too small (due to      * removal or resizing) they are converted back to plain bins.
+			  - 
+			  HashMap{
+				Node<K,V> contains key , value , hash , next 
+				getComparableClassFor - returns class c if it implements comparable<c>
+				
+			  }
+
+15.Classloaders
+		-- bootstrap classloader
+		-- extendsions classloader
+		-- system classloader
+		
+		
+16.catching multiple exceptions 
+			- The Java SE 7 compiler can determine that the exception thrown by the statement throw e must have come from the try block, and the only exceptions thrown by the try block can be FirstException and SecondException. Even though the exception parameter of the catch clause, e, is type Exception, the compiler can determine that it is an instance of either FirstException or SecondException:
+			- This analysis is disabled if the catch parameter is assigned to another value in the catch block. However, if the catch parameter is assigned to another value, you must specify the exception type Exception in the throws clause of the method declaration
+			- 
+			
+19.how garbage collection works in java 
+	- https://javarevisited.blogspot.com/2011/04/garbage-collection-in-java.html
+			
+23. Serialization and Deserialization life cycle 
+private void writeObject(ObjectOutputStream out) throws IOException;
+private void readObject(ObjectInputStream in) throws IOException, ClassNotFoundException;
+Notice that both methods are (and must be) declared private, proving that neither method is inherited and overridden or overloaded. The trick here is that the virtual machine will automatically check to see if either method is declared during the corresponding method call. The virtual machine can call private methods of your class whenever it wants but no other objects can. Thus, the integrity of the class is maintained and the serialization protocol can continue to work as normal. The serialization protocol is always used the same way, by calling either ObjectOutputStream.writeObject() or ObjectInputStream.readObject(). So, even though those specialized private methods are provided, the object serialization works the same way as far as any calling object is concerned.			
+
+	- serialversionUID for maintaining version 
+	
+24.
+
+26.notify vs notifyAll
+ - https://stackoverflow.com/questions/37026/java-notify-vs-notifyall-all-over-again
+ 
+ 
+ 27.Threadgroup
+	- is a way to manage a set of threads at once . can call set daemon , destroy , checkAccess , activeCount , activeGroupCount 
+	- a thread's priority can never exceed its thread group's priority . 
+	-  However, if you use setMaxPriority(int priority) to lower a group's maximum priority, all threads added to the group prior to that method call keep their original priorities
+	- 
+	
+28.
+	- before it goes to running state 
+	
+29. seDaemon(true)
+	-  newly created thread inherits the daemon status of its parent. That’s the reason all threads created inside main method
+	(child threads of main thread) are non-daemon by default, because main thread is non-daemon
+	- A daemon thread group is automatically destroyed when its last thread is stopped or its last thread group is destroyed.
+
+30. 
+When a thread is about to terminate due to an uncaught exception the Java Virtual Machine will query the thread 
+for its UncaughtExceptionHandler using Thread.getUncaughtExceptionHandler() and will invoke the handler's uncaughtException method, 
+passing the thread and the exception as arguments. 
+If a thread has not had its UncaughtExceptionHandler explicitly set, then its ThreadGroup object acts as its 
+UncaughtExceptionHandler. If the ThreadGroup object has no special requirements for dealing with the exception, 
+it can forward the invocation to the default uncaught exception handler.
+
+The uncaughtException method of ThreadGroup does the following: 
+•If this thread group has a parent thread group, the uncaughtException method of that parent is called with the same two arguments. 
+•Otherwise, this method checks to see if there is a default uncaught exception handler installed, and if so, its uncaughtException method is called with the same two arguments. 
+•Otherwise, this method determines if the Throwable argument is an instance of ThreadDeath. If so, nothing special is done. Otherwise, a message containing the thread's name, as returned from the thread's getName method, and a stack backtrace, using the Throwable's printStackTrace method, is printed to the standard error stream. 
+
+Applications can override this method in subclasses of ThreadGroup to provide alternative handling of uncaught exceptions.
+
+https://stackoverflow.com/questions/8362345/defining-one-global-uncaughtexceptionhandler-for-all-threads-of-my-application
+
+http://farenda.com/java/java-uncaughtexceptionhandler-executorservice/
+
+31.
+
+32.
+32.Threadlocal 
+	- initialValue method can be overridden so that all threads see the same initial value . 
+	- https://stackoverflow.com/questions/817856/when-and-how-should-i-use-a-threadlocal-variable
+	- The lifecyle of ThreadLocal variables is directly interconnected to the lifecyle of its corespondig thread. If the thread is terminated and 
+	collected by the Garbage Collector, its coresponding ThreadLocal variables will also be good candidates for Garbage Collcetion.
+	- Memory problems will mainly occur if ThreadLocal variables are used inside of Java EE applications running in an application server. 
+	Application Servers manage threads by using thread pools to safe resources and boost performance. 
+	- InheritableThreadLocal
+		- http://searene.me/2017/10/02/When-and-how-to-use-InheritableThreadLocal/ 
+		- 
+34.Spliterator 
+	- package spliterator;
+
+import java.util.Spliterator;
+import java.util.function.Consumer;
+import java.util.stream.StreamSupport;
+
+public class MySpliterator implements Spliterator<Character>{
+	
+	public static void main(String[] args) {
+		String seedString = "Piyush Anand Tripathi";
+		int sum = StreamSupport.stream(new MySpliterator(seedString, 0, seedString.length()), true).mapToInt(c->1).sum();
+		System.out.println(sum);
+		
+	}
+	private final String seedString ;
+	private final int start ; 
+	private int end ;
+	private int currentIndex ; 
+	public MySpliterator(String seedString,int start , int end) {
+		super();
+		this.seedString = seedString;
+		this.start = start;
+		this.end = end ;
+		currentIndex = start ;
+	}
+
+	@Override
+	public boolean tryAdvance(Consumer<? super Character> action) {
+		if(currentIndex < end){
+			action.accept(seedString.charAt(currentIndex));
+			++currentIndex;
+			return true;
+		}
+		return false;
+	}
+
+	@Override
+	public Spliterator<Character> trySplit() {
+		int mid = (currentIndex + end)/2;
+		if(mid == currentIndex){
+			return null;
+		}
+		final int oldEnd = end;
+		end = mid;
+		return new MySpliterator(this.seedString, mid, oldEnd);
+	}
+
+	@Override
+	public long estimateSize() {
+		return end-start;
+	}
+
+	@Override
+	public int characteristics() {
+		return Spliterator.CONCURRENT | Spliterator.IMMUTABLE | Spliterator.SIZED | Spliterator.SUBSIZED;
+	}
+
+}
+
+
+36.completableFuture
+	- Notice that this method takes a function that returns a CompletableFuture instance. The argument of this function is the result of the previous computation step. This allows us to use this value inside the next CompletableFuture‘s lambda:
+
+1
+2
+3
+4
+5
+CompletableFuture<String> completableFuture 
+  = CompletableFuture.supplyAsync(() -> "Hello")
+    .thenCompose(s -> CompletableFuture.supplyAsync(() -> s + " World"));
+ 
+assertEquals("Hello World", completableFuture.get());
+
+37.
+
+
+59.
+Stream.iterate(T seed , Unaryoperator<T> next)
+Stream.generate(Provider<T>)
+
+both the infinite streams should be limited by Stream.limit before calling collect so that the stream doesn't run forever . 
+
+60.Both lock and synchronized allow a thread to give up the lock when waiting and another thread can obtain the lock . To stop waiting , a thread has to reacquire the lock . 
+
+From Condition.await()
+	- The lock associated with this thread invokes the signal method for this condition and the current thread happens to be chosen as the thread to be chosen as the thread to be awakened 
+	- some other thread invokes the signalAll() method on this condition 
+	- some other thread interrupts the current thread , and interruption of thread suspension is supported 
+	- a spurious wake up occurs 
+	
+	
+69. - strong , weak , soft , phantom 
+
+70.
+
+73.volatile guarantees
+	visibility guarantee
+		- if a thread A writes to a volatile variable and another thread B reads from the volatile variable then all variables visible to Thread A before writing the volatile variable will also be visible to Thread B after it has read the volatile variable .
+		- if a thread A reads a volatile variable then all the variables visible to thread A when reading the volatile variable will also be re-read from main memory 
+		
+	happens before guarantee 
+		- reads from and writes to other variables cannot be reordered to occur after a write to a volatile variable  , if the read/write originally occured before the write to the volatile variable 
+		- reads from and writes to other variables cannot be reordered to occur before a write to a volatile variable , if the read/write originally occured after the read of a volatile variable 
+		
+77.install express 
+	import and create an instance of app . 
+	app has methods like get, post,put , delete for each of the rest operations 
+	- each method's first argument is the url at which it will respond 
+	
+78. yarn vs npm 
+	- yarn installs packages in parallel 
+	- yarn installation happens from yarn-lock.json , npm happens from package.json 
+	- yarn updates yarn-lock.json every time , npm only when shrinkwrap command is run 
+	
+79.
+
+80. nsp - node security project to check whether the installed module uses any known vulnerabilities 
+	- use TLS instead of SSL , use let's encrypt is open SSL certificate resource 
+	- node.js application shouldn't be directly exposed to the internet and SSL termination is handled prior to node.js . use NGINX for that purpose 
+	- install helmet 
+	- tighten session cookies 
+		- 
+		
+81. Streams - A stream is an abstract interface for working with streaming data in node js . The stream module provides a base API that makes it easy to build projects that implement the stream interface . All streams are instances of Event Emitter . 
+	types 
+		- readable
+		- writable
+		- duplex
+		- transform
+		
+	Writable 
+		- event:close - the 'close' event is emitted when when the stream and any of its underlying resources are closed . the event indicates that no more event will be emitted and no further computation will occur . 
+		- event:drain - if a call to stream.write(chunk) returns false , the 'drain' event will be emitted when its appropriate to resume writing data to the stream 
+		- error - the error event is emitted if an error occured while writing or piping data . the listener callback is passed a single Error argument when called . the stream is not closed
+		- finish - the 'finish' event is emitted after the stream.end() method has been called , and all data has been flushed to the underlying stream . 
+		- pipe - the pipe' event is emitted when the stream.pipe() method is called on a readable stream , adding this writable to its set of destinations . 
+		- unpipe - the 'unpipe' event is emitted when the stream.unpipe() method is called on a Readable stream , removing this Writable from its list of destinations . this event is also emitted when the Writable stream emits an error when a Readable stream pipes into it . 
+		- methods
+		- cork: the writable.cork() method forces all written data to be buffered into memory . the buffered data will be flushed when either the stream.uncork() or stream.end() methods are called . 
+		- writable.destroy([error]): destroy the 'stream' and emit the passed error and a close event . after all this , writable stream has ended and subsequent calls to write()/end() will give ERR_STREAM_DESTROYED error . implementors should not override this method , but instead implement writable._destroy . 
+		- writable.end - signals that no more data will be written to the writable . the optional chunk and encoding arguments 	allow one final additional chunk of data to be written immediately before closing the stream . if provided , the optional callback function is attached as a listener for the finish event . calling stream.write after stream.end will raise an error . 
+		- writable.setDefaultEncoding
+		- writable.uncork
+		- writable.writableHighWaterMark - returns the value of highwatermark when constructing this variable . 
+		- writable.writableLength - contains the number of bytes in the queue ready to be written . 
+		- writable.write - 
+			- args
+				- chunk - Optional data to write . For streams not operating in object mode , chunk must be a string , buffer or Uint8Array . For object mode streams , chunk may be any javascript value other than null 
+				- encoding - if chunk is a string 
+				- callback - to be called when this chunk of data is flushed 
+				- returns boolean : false , if the stream wishes for the calling code to wait for the 'drain' event to be emitted before continuing to write additional data , otherwise true . 
+	
+	Readable 
+		- Two modes  - flowing and paused 
+			- when in flowing mode , data is read from the underlying stream automatically and provided to an application as quickly as possible using events via the event emitter interface . 
+			- in paused mode , the stream.read() method must be called explicitly to read chunks of data from the stream . 
+			- all readable streams begin in paused mode but can be switched to flowing mode in one of the following ways 
+				- adding a 'data' event handler 
+				- calling stream.resume() 
+				- calling stream.pipe() method to send the data to a writable stream . 
+			- the readable stream can switch back to paused mode by 
+				- if there are no pipe destinations , calling the stream.pause method 
+				- if there are pipe destinations then removing them all . stream.unpipe method can be used for the same 
+			- for backward compatibility reasons , removing 'data' event handlers will not automatically pause the stream . also , if there are no piped destinations , then calling stream.pause() will not guarantee that the stream will remain paused once those destinations drain and ask for more data
+			- if a readable is switched to flowing mode and there are no consumers available to handle the data , the data will be lost . this can occur , for instance , when the readable.resume() method is called without a listener attached to the data event or when a data event handler is removed from the stream . 
+			
+		- Three states based on value of readableFlowing - null , true , false 
+			- no mechanism for consuming the stream is available so the stream will not generate any data . while in this state , attaching a listener to the data event , attaching a writable to the pipe or calling stream.resume will change readableFlowing to true . 
+			- calling readable.pause() , readable.unpipe() or "receiving backpressure" will change readableFlowing to false , that means flowing of events will halt but not the generation of data . attaching a 'data' event will not cause the readableFlowing to become true . 
+			
+		- events : 
+			- close - when the stream and any of its underlying resources have been closed . the event indicates that no more events will be emitted and no further computation will occur . 
+			- data - for streams that are not operating in object mode , the chunk will either be a string or a buffer . for streams that are in object mode , the chunk can be any javascript value other than null 
+			- end - when there is no more data to be consumed from the stream . can be accomplished by switching the stream into flowing mode or by calling stream.read() until all its data has been consumed 
+			- error - anytime when the underlying stream is unable to generate data due to underlying internal failure . 
+			- readable - when there is some data available to be read from the stream . 
+						- also once the end of the stream data has been reached but before the 'end' event is emitted . 
+						- readable is emitted every time there is no new information available . if both 'readable' and 'data' are used at the same time , 'readable' takes precedence in controlling the flow 
+		- methods : 
+			- destroy: destroy the stream and emit 'error' and close . subsequent calls to push will be ignored 
+			- isPaused
+			- pause : will cause a stream in flowing mode to stop emitting 'data' events , switching out of flowing mode . any data that becomes available will remain in internal buffer . 
+			- readable.pipe(destination,[options]) - attaches a writable stream to the readable , causing it to switch to flowing mode and push all of its data to the attached writable . the flow of data will be automatically managed so the writable stream is not overwhelmed by readable stream . 
+			- read : pulls some data from internal buffer and returns it , if no data is available to read , null is returned . optional parameter is size , if size amount of data is not available , null is returned but if stream has ended then all the data remaining at the end of buffer is returned . 
+			- readableHighWaterMark
+			- readableLength - number of bytes in the queue ready to be read . 
+			- resume - causes explicitly paused readable stream to resume emitting 'data' events , switching the stream into flowing mode . 
+			- readable.unpipe 
+			
+		 
+90.exit codes 
+	- process.exit(0)
+	- process.on('exit',callback)
+	- process.abort() doesn't call callback 
+	- process.pid for getting process id 
+	
+92.Process is a global object that provides information about the current Node.js process . Process is a listener function that is always listening to events . 
+	eg - Exit , disconnect , unhandledException , rejectionHandled 
+	process.on('uncaughtException',err => console.log(err));
+	
+93. 	
+
+19.attributes of package.json - name , version , contributers , dependencies , dev-dependencies 
+
+20. Event loop 
+	- order of operations - timers , pending callbacks , (idle,prepare),poll,check,close callbacks
+	- each phase has a FIFO queue of callbacks to execute . while each phase is special in its own way , generally when an event loop enters a phase , it will perform any operations specific to that phase , then execute callbacks in that phase until the queue has been exhausted or the maximum number of callbacks has been executed .
+	- when the queue has been exhausted or the callback limit is reached , the event loop will move to next phase and so on . 
+	- since any of these operations may schedule more operations and new events processed in the poll phase are queued by the kernel , poll events can be queued while polling events are being processed 
+	phases 
+	-------
+		- timers - a timer specifies the threshold after which a provided callback may be executed rather than the time exact a person wants it to be executed . Timers callback will be run as early as they can be scheduled after the specified amount of time has passed . 
+		- pending callbacks - executes callbacks for some system operations 
+		- poll - 2 main functions 
+				- calculating how long it should block and poll for I/O then 
+				- processing events in the poll queue . 
+				- if the poll queue is not empty , the event loop will iterate through its queue of callbacks executing them synchronously until either the queue has been exhausted , or the system dependent hard-limit is reached . 
+				- if the poll queue is empty 
+					- if scripts have been scheduled by setImmediate() the event loop will end the poll phase and continue the check phase to execute those scheduled scripts 
+					- if scripts have not been scheduled by setImmediate() , the event loop will wait for callbacks to be added to the queue and then execute them immediately . 
+					- once the poll queue is empty the event loop will check for timers whose time thresholds have been reached . if one or more timers are ready , the event loop will wrap back to the timers phase to execute those timers' callbacks 
+		- check - this phase allows a person to execute callbacks immediately after the poll phase has completed . if the poll phase becomes idle and scripts have been queued with setImmediate , the event loop may continue to check phase rather than waiting . 
+		- close - if a socket or handle is closed abruptly , the 'close' event will be emitted in this phase . Otherwise it will be emitted via process.nextTick() . 
+		
+		
+		- There is only one thread that executes javascript code and this is the thread where the event loop is running . The execution of callbacks is done by the event loop . 
+		- all callbacks scheduled via process.nextTick() are run at the end of a phase of a event loop before transitioning to the next phase . this creates the potential to unintentionally starve the event loop with recursive calls to process.nextTick() 
+		
+		
+30.import socket.io 
+	- create a new express app . app = new express()
+	- create a server using server = http.createServer(app)
+	- create a sockerio.server using socketIO(server)
+	- whenever a new user joins connection , connection event is fired on io server 
+	- at the same time , a connect event is fired on the socket on client side . the client can then use this event to emit socket.join event with all the parameters ( of which room name is important)
+	- this event is received on the server side to join a room on the socket , using io.to(params.room).emit('sender',message)
+	- socket.join and socket.leave can be used to join/leave a room . 
+	- socket.id gives the unique session id for a client . 
+	

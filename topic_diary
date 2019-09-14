@@ -29,3 +29,30 @@ https://dzone.com/articles/understanding-sunmiscunsafe . what are class loaders 
 sun.misc.unsafe 
 	- singleton instance is loaded in a private static field called theUnsafe.
 	- 
+	
+links 
+	- http://www.cs.rochester.edu/~scott/papers/1996_PODC_queues.pdf
+	
+14th
+-----
+Junit
+	1.
+- lifecycle methods of junit test file . 
+	- rules of each lifecycle method.
+	- expecting exceptions
+	- runner and what are its benefits
+	
+- the order of test cases varies from JVM to JVM.
+- assumeTrue,assumeFalse,assumeThat,assumeNotNull 
+- how to write a test suite 
+- isNaN in java ? 
+- creating your own Matcher using hamcrest interfaces.
+- theory . timed out tests . parameterized test with constructor . parameterized test without constructor.
+- https://dzone.com/articles/building-custom-datapoints
+- rule allow very flexible addition or redefinition of the behavior of each test method in a test class.
+- temporaryfolder rule , error collector rule , timeout rule , external resource rule , test name rule , verifier rule.
+
+1.how to run code snippets a) before and after each test b) before and after the class 2.assertSame vs assertEquals 3.how to test for a double value with some room for error 4.how to test for a function whose expected output is an exception 5.what is a valid input to Suite.class 6.@Ignore and why is it better than commenting out the code 7.how to determine the order in which the tests run , can we enforce our own ordering on the test 8.what are assumptions and why should we use it during tests 9.how to assert with Matcher , the library where Matchers are found and what are its benefits 10.how to create own custom matcher 11.how to create parameterized tests using constructor 12. how to create parameterized test without constructor and how to assign order to fields 13.how to enforce timeout for a test ( possible reason might be for performance reasons) 14.why are theories used 15. how to create a external parameter supplier to a theory 16.timeout rule 17.ExpectedException rule 18.temporaryfolder rule and where is the path for temporary folder 19.ErrorCollector rule 20.verifier rule 21.TestWatcher rule 22.testName rule 23.Category runner and why are they used , what happens when a class is in both IncludeCategories and ExcludeCategories.
+
+3.
+- types of test doubles 

@@ -1,0 +1,19 @@
+- how can ThreadLocal variables create memory leak in managed server environments ? 
+- how does classloader work in managed server environments ? 
+- why are java's format classes not thread-safe ? 
+4-  what is inheritable thread local and why is it used ? 
+5- what are the locks available in java 8 and how are they implemented 
+6- explain why monitor shouldn't be taken on string constants or global objects 
+7- explain lock ordering 
+8- Design a fair lock in java 
+9- explain nested monitor lockout 
+10- implementation of re-entrant lock in java fulfilling all conditions from jenkov article 
+11-  
+
+
+
+Python
+
+- how to create  a class in python . difference between classic classes and new classes in python ? 
+2.Object does not support indexing ? How to resolve this issue . 
+3.Object is not iterable , how to solve the issue 
