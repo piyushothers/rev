@@ -56,3 +56,8 @@ Junit
 
 3.
 - types of test doubles 
+
+15th
+----
+https://www.javaworld.com/article/2074689/hamcrest-containing-matchers.html 
+verify is like toBeCalled , thenAnswer has to be supplied with an instance of answer interface so that dynamic logic can be applied . spy is for spying on objects . mockDetails is to know whether the instance is a mock or spy . argumentCaptor is to capture the arguments called for a method . 
