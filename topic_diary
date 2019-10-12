@@ -1,5 +1,21 @@
 !!!current roster
 !!! time table
+!!!rev_roster
+!!!study_roster
+!!!office routine
+!!!htime table
+!!!office routine
+6am- wake up 6-8-get ready 8-9-travel 9-8-office 8-9-travel 9-10-break time excluding h 10-11-diary,sarvangasan,sleep 
+
+
+!!! health routine 
+6am- wake up 6-10-gym if pending and/or break time activity including h 10-11-get ready 11-12--travel 12-7--office 7-8--reach gym 8-10-gym 10-11-dinner and come back home 11-12-rtn2
+or
+6am- wake up 6-10-gym if pending and/or break time activity including h 10-11-get ready 11-12--travel 12-7--office 7-8--reach gym 8-10-gym 10-11-dinner and come back home 11-12-rtn2
+- gym aim 9 times a week
+
+!!! study routine
+6am- wake up 6-8-study 8-9-get ready 9-11-study 11-12-travel 12-7-office 7-8--travel 8-9-sarvangaasan and yoga 9-11-study 11-6--sleep
 
 8/27/2019	refactoring - chapter 1 to 3, creating a connected component in react , setting up react saga , difference between test stubs and test mocks(martin fowler article)
 8/28/2019	flexbox mdn site , css selectors w3 schools , refactoring chapter 4-9 
@@ -79,815 +95,318 @@ activity
  
 16th
 ----
- !!!current roster
-1.health*
-2.ebs
-3.health*
-4.health*
-5.ebs
-6.r
-7.r
-8.r
-9.d&k
-10.r
-11.health*
-12.r
-13.health*
-14.health*
-15.health*
-16.r
-17.health*
-18.health*
-19.health*
-20.health*
-21.health*
-22.health*
-23.health*
-24.health*
-25.health*
-26.health*
-27.health*
-28.r
-29.r
-30.r
-31.r
-32.ec2
-33.ec2
-34.ec2
-35.ec2
-36.ec2
-37.health*
-38.ec2
-39.health*
-40.ec2
-41.health*
-42.health*
-43.r
-44.ec2
-45.ec2
-46.ec2
-47.health*
-48.health*
-49.health*
-50.health*
-51.health*
-52.ec2
-53.health*
-54.r
-55.health*
-56.ec2
-57.health*
-58.ec2
-59.ec2
-60.health*
-61.r
-62.r
-63.health*
-64.vpc
-65.health*
-66.vpc
-67.health*
-68.health*
-69.health*
-70.vpc
-71.health*
-72.vpc
-73.health*
-74.health*
-75.health*
-76.elb
-77.r
-78.r
-79.health*
-80.health*
-81.ec2
-82.r
-83.health*
-84.r
-85.r
-86.r
-87.r
-88.health*
-89.r
-90.r
-91.elb
-92.r
-93.health*
-94.r
-95.vpc
-96.health*
-97.health*
-98.health*
-99.health*
-100.vpc
-101.r
-102.health*
-103.health*
-104.vpc
-105.health*
-106.vpc
-107.r
-108.health*
-109.health*
-110.health*
-111.r
-112.health*
-113.health*
-114.r
-115.health*
-116.health*
-117.r
-118.health*
-119.health*
-120.health*
-121.health*
-122.r
-123.health*
-124.r
-125.health*
-126.vpc
-127.r
-128.health*
-129.health*
-130.r
-131.ec2
-132.ebs
-133.ebs
-134.health*
-135.health*
-136.ebs
-137.ec2
-138.health*
-139.ec2
-140.UML modelling
-141.health*
-142.health*
-143.UML modelling
-144.health*
-145.health*
-146.health*
-147.ec2
-148.health*
-149.health*
-150.UML modelling
-151.health*
-152.UML modelling
-153.health*
-154.UML modelling
-155.health*
-156.health*
-157.health*
-158.ec2
-159.UML modelling
-160.health*
-161.health*
-162.ec2
-163.ec2
-164.health*
-165.ec2
-166.UML modelling
-167.health*
-168.health*
-169.health*
-170.UML modelling
-171.elb
-172.health*
-173.ec2
-174.elb
-175.ec2
-176.r
-177.ec2
-178.health*
-179.health*
-180.health*
-181.ec2
-182.health*
-183.ec2
-184.r
-185.r
-186.r
-187.r
-188.r
-189.r
-190.health*
-191.r
-192.ec2
-193.r
-194.health*
-195.r
-196.r
-197.r
-198.r
-199.health*
-200.ec2
-201.ec2
-202.UML modelling
-203.ec2
-204.health*
-205.health*
-206.ec2
-207.ec2
-208.ec2
-209.health*
-210.health*
-211.health*
-212.ec2
-213.ec2
-214.health*
-215.health*
-216.health*
-217.health*
-218.health*
-219.health*
-220.UML modelling
-221.health*
-222.vpc
-223.health*
-224.ec2
-225.ec2
-226.health*
-227.health*
-228.vpc
-229.health*
-230.vpc
-231.r
-232.health*
-233.health*
-234.health*
-235.health*
-236.health*
-237.r
-238.vpc
-239.r
-240.health*
-241.health*
-242.health*
-243.health*
-244.health*
-245.r
-246.ec2
-247.health*
-248.health*
-249.health*
-250.ec2
-251.health*
-252.health*
-253.health*
-254.health*
-255.health*
-256.ec2
-257.ec2
-258.ec2
-259.health*
-260.ec2
-261.ec2
-262.health*
-263.health*
-264.ec2
-265.vpc
-266.health*
-267.vpc
-268.health*
-269.ec2
-270.health*
-271.health*
-272.health*
-273.health*
-274.ec2
-275.vpc
-276.health*
-277.health*
-278.health*
-279.vpc
-280.health*
-281.health*
-282.health*
-283.vpc
-284.health*
-285.vpc
-286.UML modelling
-287.health*
-288.r
-289.r
-290.health*
-291.UML modelling
-292.UML modelling
-293.UML modelling
-294.r
-295.health*
-296.UML modelling
-297.UML modelling
-298.health*
-299.health*
-300.health*
-301.r
-302.health*
-303.r
-304.UML modelling
-305.UML modelling
-306.health*
-307.r
-308.health*
-309.health*
-310.health*
-311.UML modelling
-312.UML modelling
-313.r
-314.ec2
-315.r
-316.r
-317.r
-318.r
-319.health*
-320.vpc
-321.health*
-322.ec2
-323.health*
-324.health*
-325.health*
-326.health*
-327.r
-328.health*
-329.health*
-330.ec2
-331.ec2
-332.health*
-333.UML modelling
-334.health*
-335.health*
-336.ec2
-337.r
-338.health*
-339.UML modelling
-340.health*
-341.ec2
-342.elb
-343.health*
-344.ec2
-345.ec2
-346.health*
-347.health*
-348.UML modelling
-349.health*
-350.ec2
-351.UML modelling
-352.UML modelling
-353.health*
-354.health*
-355.elb
-356.health*
-357.health*
-358.health*
-359.UML modelling
-360.health*
-361.UML modelling
-362.UML modelling
-363.ec2
-364.ec2
-365.elb
-366.elb
-367.r
-368.r
-369.r
-370.elb
-371.health*
-372.r
-373.health*
-374.elb
-375.health*
-376.elb
-377.health*
-378.elb
-379.health*
-380.elb
-381.elb
-382.elb
-383.elb
-384.health*
-385.health*
-386.elb
-387.health*
-388.r
-389.ec2
-390.r
-391.r
-392.health*
-393.health*
-394.ec2
-395.health*
-396.ec2
-397.health*
-398.health*
-399.health*
-400.health*
-401.health*
-402.health*
-403.health*
-404.ec2
-405.health*
-406.ec2
-407.elb
-408.vpc
-409.vpc
-410.health*
-411.health*
-412.health*
-413.elb
-414.health*
-415.health*
-416.auto scaling
-417.health*
-418.auto scaling
-419.vpc
-420.vpc
-421.auto scaling
-422.ec2
-423.health*
-424.health*
-425.vpc
-426.vpc
-427.vpc
-428.health*
-429.ec2
-430.health*
-431.ec2
-432.vpc
-433.vpc
-434.health*
-435.health*
-436.health*
-437.health*
-438.health*
-439.vpc
-440.health*
-441.vpc
-442.ec2
-443.vpc
-444.ec2
-445.health*
-446.health*
-447.auto scaling
-448.vpc
-449.health*
-450.vpc
-451.health*
-452.health*
-453.ec2
-454.health*
-455.health*
-456.health*
-457.health*
-458.vpc
-459.ec2
-460.health*
-461.vpc
-462.health*
-463.ec2
-464.health*
-465.health*
-466.vpc
-467.ec2
-468.health*
-469.health*
-470.vpc
-471.health*
-472.health*
-473.vpc
-474.health*
-475.ec2
-476.ec2
-477.health*
-478.ec2
-479.health*
-480.ec2
-481.health*
-482.ec2
-483.health*
-484.vpc
-485.ec2
-486.health*
-487.ec2
-488.ec2
-489.ec2
-490.health*
-491.rds and aurora
-492.ec2
-493.auto scaling
-494.health*
-495.health*
-496.health*
-497.health*
-498.rds and aurora
-499.health*
-500.ec2
+!!!guidelines
+- whatever be the case - non-fasting weekdays are only for health purpose and nothing else.
 
-!!!rev_roster
-1.r_month-2
-2.r_month-2
-3.r_month*
+!!!activity roster (monthly target) - break point - 10% body fat
+
+!!!rev_roster(daily)
+1.r_month* <--
+2.r_month*
+3.r_month-1
 4.r_month*
-5.r_random
+5.r_year
 6.r_month*
-7.r_month*
-8.r_month*
-9.r_month-2
-10.r_month-2
-11.r_year
-12.r_random
-13.r_year
+7.r_year
+8.r_random
+9.r_random
+10.r_month*
+11.r_random
+12.r_month*
+13.r_month*
 14.r_month*
-15.r_month*
+15.r_random
 16.r_month*
 17.r_month*
-18.r_month-2
+18.r_month*
 19.r_month*
-20.r_year
+20.r_year-1
 21.r_month*
-22.r_month*
-23.r_random
+22.r_random
+23.r_year-1
 24.r_month*
-25.r_month*
-26.r_month*
-27.r_month*
-28.r_month*
-29.r_random
+25.r_year-1
+26.r_year-1
+27.r_year-1
+28.r_random
+29.r_month*
 30.r_month*
 31.r_month*
 32.r_month*
 33.r_month*
-34.r_month*
-35.r_month*
+34.r_month-2
+35.r_random
 36.r_random
 37.r_year
-38.r_year
+38.r_random
 39.r_month*
-40.r_random
-41.r_month*
-42.r_random
-43.r_month*
-44.r_month*
+40.r_month*
+41.r_random
+42.r_month*
+43.r_random
+44.r_month-2
 45.r_month*
 46.r_month-2
 47.r_month-2
-48.r_month*
-49.r_month*
-50.r_year
-51.r_year
-52.r_month-2
-53.r_month*
+48.r_month-2
+49.r_random
+50.r_month-2
+51.r_random
+52.r_month*
+53.r_year-1
 54.r_month*
-55.r_month-2
-56.r_year
-57.r_month-3
-58.r_month-3
-59.r_month-3
-60.r_month*
-61.r_month-3
-62.r_month-3
-63.r_month-3
+55.r_month*
+56.r_month*
+57.r_year-1
+58.r_random
+59.r_random
+60.r_random
+61.r_month*
+62.r_month*
+63.r_random
 64.r_month*
-65.r_year
+65.r_month*
 66.r_year
 67.r_month*
-68.r_month*
+68.r_random
 69.r_month*
-70.r_month*
-71.r_year
-72.r_month-3
+70.r_year
+71.r_month*
+72.r_random
 73.r_month*
-74.r_year
-75.r_month-3
-76.r_random
+74.r_month*
+75.r_month*
+76.r_month*
 77.r_month*
-78.r_month*
-79.r_random
-80.r_random
+78.r_year-1
+79.r_month*
+80.r_month*
 81.r_month*
 82.r_month*
-83.r_month-3
-84.r_month*
-85.r_month*
-86.r_year
+83.r_year-1
+84.r_month-2
+85.r_year-1
+86.r_month-1
 87.r_month*
-88.r_month*
+88.r_year-1
 89.r_month*
 90.r_month*
-91.r_month-3
-92.r_month-3
-93.r_month-3
+91.r_month*
+92.r_random
+93.r_month*
 94.r_month*
-95.r_random
-96.r_year
-97.r_month*
-98.r_year
-99.r_year
-100.r_year
-101.r_month*
-102.r_year
-103.r_month*
-104.r_month*
-105.r_month*
+95.r_month-1
+96.r_month*
+97.r_year
+98.r_month*
+99.r_month*
+100.r_month-2
+101.r_month-2
+102.r_month*
+103.r_year
+104.r_random
+105.r_random
 106.r_month*
-107.r_year
-108.r_month*
+107.r_random
+108.r_year
 109.r_month*
 110.r_month*
-111.r_month-2
-112.r_month*
-113.r_month*
-114.r_month-2
-115.r_month-3
-116.r_year
-117.r_year
-118.r_year
-119.r_year
-120.r_year
+111.r_year
+112.r_random
+113.r_random
+114.r_month*
+115.r_random
+116.r_month*
+117.r_month-2
+118.r_month-2
+119.r_month-2
+120.r_month*
 121.r_month*
-122.r_month*
-123.r_month-3
-124.r_month-3
-125.r_month-2
-126.r_month-2
-127.r_month-2
-128.r_year
-129.r_month-2
+122.r_month-2
+123.r_month-2
+124.r_month-2
+125.r_month*
+126.r_month-1
+127.r_month*
+128.r_month*
+129.r_year
 130.r_month*
 131.r_month*
-132.r_random
-133.r_random
-134.r_month*
-135.r_month-3
-136.r_month*
+132.r_month-2
+133.r_month-2
+134.r_year
+135.r_year
+136.r_year-1
 137.r_month-2
-138.r_month-2
-139.r_month*
-140.r_month-2
-141.r_month-2
-142.r_month-2
-143.r_month*
-144.r_random
-145.r_month*
+138.r_month*
+139.r_month-2
+140.r_month*
+141.r_month*
+142.r_year-1
+143.r_year-1
+144.r_month*
+145.r_year-1
 146.r_month*
-147.r_month-2
+147.r_month*
 148.r_month*
-149.r_month-2
-150.r_month-2
-151.r_random
-152.r_year
-153.r_year
-154.r_month*
+149.r_month*
+150.r_month*
+151.r_year-1
+152.r_month*
+153.r_month*
+154.r_year
 155.r_month*
 156.r_year
 157.r_month*
-158.r_month*
+158.r_month-2
 159.r_month*
-160.r_month*
-161.r_year
-162.r_year
-163.r_month*
-164.r_month*
-165.r_year
+160.r_month-2
+161.r_month*
+162.r_month*
+163.r_random
+164.r_year-1
+165.r_month*
 166.r_month*
-167.r_random
-168.r_month*
-169.r_random
-170.r_year
-171.r_random
-172.r_year
-173.r_month-2
-174.r_month*
-175.r_month*
-176.r_year
+167.r_month-1
+168.r_month-2
+169.r_month*
+170.r_month-1
+171.r_month*
+172.r_month*
+173.r_year-1
+174.r_month-1
+175.r_year-1
+176.r_year-1
 177.r_month*
-178.r_month*
-179.r_month*
-180.r_month*
-181.r_month*
-182.r_month-2
-183.r_year
-184.r_month*
-185.r_year
-186.r_random
-187.r_month*
-188.r_month-3
-189.r_month*
+178.r_year-1
+179.r_month-2
+180.r_month-2
+181.r_year
+182.r_month*
+183.r_month*
+184.r_year
+185.r_month*
+186.r_year
+187.r_month-2
+188.r_month*
+189.r_month-2
 190.r_month*
-191.r_month*
-192.r_month-3
-193.r_year
-194.r_month*
+191.r_year
+192.r_month*
+193.r_year-1
+194.r_year-1
 195.r_month*
-196.r_year
+196.r_year-1
 197.r_year
 198.r_month*
-199.r_month-2
+199.r_month*
 200.r_year
-201.r_random
-202.r_year
+201.r_month*
+202.r_random
 203.r_random
-204.r_month*
-205.r_month*
+204.r_year
+205.r_year
 206.r_month*
 207.r_random
-208.r_random
-209.r_month*
-210.r_month*
-211.r_month*
+208.r_year-1
+209.r_random
+210.r_year-1
+211.r_year-1
 212.r_month*
-213.r_random
+213.r_month-1
 214.r_month*
-215.r_random
-216.r_month-3
-217.r_month*
+215.r_month*
+216.r_month*
+217.r_year
 218.r_month*
-219.r_month*
-220.r_month*
-221.r_random
-222.r_month*
-223.r_month-3
-224.r_month-2
-225.r_month-2
-226.r_month*
+219.r_year
+220.r_month-2
+221.r_month-2
+222.r_year
+223.r_month*
+224.r_year
+225.r_year
+226.r_month-2
 227.r_month*
-228.r_month-2
-229.r_random
-230.r_month-2
-231.r_month*
-232.r_random
+228.r_month*
+229.r_month-2
+230.r_month*
+231.r_year
+232.r_month*
 233.r_random
-234.r_month*
-235.r_month*
-236.r_random
+234.r_month-2
+235.r_random
+236.r_month-2
 237.r_month*
-238.r_month-3
-239.r_random
-240.r_month-3
-241.r_month*
-242.r_year
-243.r_random
-244.r_month*
-245.r_random
-246.r_year
-247.r_random
-248.r_random
-249.r_month*
-250.r_month-3
-251.r_month*
-252.r_month-3
-253.r_month-2
-254.r_month*
-255.r_month*
-256.r_month*
-257.r_random
-258.r_month-3
-259.r_month-3
-260.r_month*
-261.r_month-3
+238.r_month*
+239.r_month*
+240.r_month-2
+241.r_month-2
+242.r_random
+243.r_month*
+244.r_random
+245.r_year-1
+246.r_month*
+247.r_month*
+248.r_month*
+249.r_year
+250.r_month*
+251.r_year
+252.r_month*
+253.r_month-1
+254.r_month-1
+255.r_year-1
+256.r_random
+257.r_year-1
+258.r_month*
+259.r_month-1
+260.r_month-2
+261.r_month*
 262.r_month*
 263.r_month*
-264.r_random
+264.r_month*
 265.r_month*
-266.r_month*
-267.r_random
-268.r_random
-269.r_random
+266.r_month-2
+267.r_month*
+268.r_month-2
+269.r_month*
 270.r_month*
 271.r_month*
-272.r_random
-273.r_month*
+272.r_month*
+273.r_month-2
 274.r_month*
-275.r_month*
+275.r_month-1
 276.r_month*
-277.r_month*
-278.r_month*
-279.r_month-3
+277.r_month-1
+278.r_year
+279.r_month-1
 280.r_month*
-281.r_month-2
-282.r_month-2
-283.r_month*
-284.r_month-3
-285.r_month*
-286.r_month-3
+281.r_month*
+282.r_month*
+283.r_year
+284.r_month*
+285.r_year
+286.r_year
 287.r_month*
-288.r_month-3
-289.r_month-3
-290.r_random
-291.r_month*
-292.r_month-3
-293.r_month-3
-294.r_month-3
-295.r_random
+288.r_year
+289.r_month-1
+290.r_month*
+291.r_month-1
+292.r_month-1
+293.r_month-1
+294.r_month*
+295.r_month*
 296.r_month*
-297.r_random
-298.r_random
-299.r_random
-300.r_random
+297.r_month*
+298.r_month*
+299.r_month*
+300.r_month-1
 301.r_month*
-302.r_year
-303.r_month-3
-304.r_month-3
-305.r_year
-306.r_month*
+302.r_month*
+303.r_month*
+304.r_month*
+305.r_month*
+306.r_month-1
 307.r_month*
 308.r_year
 309.r_month*
@@ -895,193 +414,1226 @@ activity
 311.r_month*
 312.r_month*
 313.r_month*
-314.r_month-2
+314.r_month*
 315.r_month*
-316.r_month-3
-317.r_month-3
-318.r_year
-319.r_month*
-320.r_year
-321.r_month*
-322.r_year
-323.r_month-3
-324.r_month-3
-325.r_month-3
-326.r_month-3
-327.r_month-3
-328.r_month-3
-329.r_month*
-330.r_year
-331.r_year
+316.r_month*
+317.r_year
+318.r_month*
+319.r_year
+320.r_month*
+321.r_year
+322.r_month-1
+323.r_month*
+324.r_month*
+325.r_month*
+326.r_month-1
+327.r_month*
+328.r_month-2
+329.r_month-1
+330.r_month*
+331.r_month*
 332.r_month*
-333.r_month*
-334.r_random
-335.r_month-3
-336.r_month-3
+333.r_month-1
+334.r_month-1
+335.r_month*
+336.r_month*
 337.r_month*
-338.r_random
-339.r_month-3
-340.r_month-3
-341.r_year
-342.r_random
-343.r_month-2
-344.r_month*
-345.r_month-2
-346.r_month-2
-347.r_month-2
-348.r_month*
+338.r_month-1
+339.r_month*
+340.r_month-1
+341.r_month*
+342.r_month*
+343.r_month*
+344.r_month-2
+345.r_month*
+346.r_month*
+347.r_year-1
+348.r_month-2
 349.r_month*
-350.r_month*
-351.r_year
+350.r_year-1
+351.r_month*
 352.r_month*
 353.r_month*
-354.r_year
-355.r_month-3
-356.r_month*
-357.r_month*
-358.r_month-3
-359.r_month-3
+354.r_month*
+355.r_month-2
+356.r_month-2
+357.r_year
+358.r_month*
+359.r_month*
 360.r_random
 361.r_month*
 362.r_month*
-363.r_year
-364.r_month*
-365.r_month*
+363.r_random
+364.r_year-1
+365.r_year-1
 366.r_month*
-367.r_year
-368.r_year
-369.r_month-3
-370.r_month-3
-371.r_month*
-372.r_month-3
-373.r_month-3
+367.r_month*
+368.r_month-2
+369.r_random
+370.r_month*
+371.r_month-1
+372.r_month-2
+373.r_month*
 374.r_month*
 375.r_month*
-376.r_year
-377.r_year
-378.r_month*
-379.r_month-3
-380.r_month-3
-381.r_month-3
-382.r_month-3
-383.r_month*
-384.r_random
-385.r_random
-386.r_month-3
-387.r_month*
-388.r_month*
+376.r_random
+377.r_month*
+378.r_random
+379.r_month*
+380.r_month*
+381.r_month*
+382.r_month*
+383.r_random
+384.r_month*
+385.r_month-1
+386.r_month*
+387.r_month-1
+388.r_month-1
 389.r_month*
-390.r_month*
-391.r_year
-392.r_year
+390.r_month-1
+391.r_month-1
+392.r_month-2
 393.r_month*
 394.r_month*
-395.r_month*
-396.r_month-3
-397.r_month-3
-398.r_month*
-399.r_month*
-400.r_month*
+395.r_month-2
+396.r_month*
+397.r_month*
+398.r_month-2
+399.r_month-1
+400.r_random
 401.r_month*
-402.r_year
-403.r_year
-404.r_month-2
-405.r_month-2
-406.r_month*
-407.r_month-2
-408.r_year
-409.r_month-3
-410.r_month-3
+402.r_month-1
+403.r_month*
+404.r_month*
+405.r_month*
+406.r_month-1
+407.r_random
+408.r_month*
+409.r_random
+410.r_month*
 411.r_month*
 412.r_month*
-413.r_month-3
-414.r_month*
-415.r_random
-416.r_month-2
-417.r_month*
+413.r_month*
+414.r_month-1
+415.r_month*
+416.r_month*
+417.r_month-1
 418.r_month*
-419.r_year
-420.r_month*
-421.r_month*
-422.r_random
-423.r_year
-424.r_random
-425.r_month*
+419.r_month-1
+420.r_random
+421.r_month-1
+422.r_month-1
+423.r_month*
+424.r_month*
+425.r_month-1
 426.r_month*
 427.r_month*
-428.r_month-3
+428.r_month-1
 429.r_month*
-430.r_random
-431.r_month*
-432.r_random
-433.r_month*
-434.r_month*
+430.r_year-1
+431.r_random
+432.r_month*
+433.r_year-1
+434.r_year-1
 435.r_month*
-436.r_month*
-437.r_month*
+436.r_year-1
+437.r_year-1
 438.r_month*
 439.r_month*
-440.r_month*
-441.r_month*
-442.r_random
+440.r_year-1
+441.r_month-1
+442.r_month*
 443.r_month*
-444.r_random
-445.r_random
-446.r_month-2
+444.r_month*
+445.r_month*
+446.r_month*
 447.r_month*
-448.r_month*
-449.r_month-2
-450.r_month-2
-451.r_random
+448.r_year-1
+449.r_month*
+450.r_random
+451.r_month*
 452.r_month*
 453.r_month*
-454.r_month-3
-455.r_random
-456.r_random
+454.r_random
+455.r_year-1
+456.r_year-1
 457.r_month*
-458.r_month-2
-459.r_month*
-460.r_month*
-461.r_month-2
-462.r_random
-463.r_month*
-464.r_random
-465.r_month-2
-466.r_month*
-467.r_month*
+458.r_month*
+459.r_random
+460.r_year-1
+461.r_month*
+462.r_month*
+463.r_month-2
+464.r_month*
+465.r_month*
+466.r_random
+467.r_month-2
 468.r_random
-469.r_random
+469.r_month-1
 470.r_month*
 471.r_month*
-472.r_month-3
-473.r_month-3
-474.r_year
-475.r_month-3
-476.r_year
+472.r_month-1
+473.r_month*
+474.r_random
+475.r_random
+476.r_month*
 477.r_month*
-478.r_year
-479.r_month*
-480.r_year
-481.r_month-2
-482.r_month-2
-483.r_month-2
-484.r_month-2
-485.r_month-2
-486.r_month-3
+478.r_month*
+479.r_month-2
+480.r_month-2
+481.r_random
+482.r_random
+483.r_random
+484.r_month*
+485.r_month*
+486.r_month*
 487.r_random
 488.r_month-2
-489.r_month*
-490.r_month*
-491.r_month-2
-492.r_month-2
+489.r_random
+490.r_random
+491.r_month*
+492.r_month*
 493.r_month*
-494.r_month-3
+494.r_month*
 495.r_month*
 496.r_month*
-497.r_month-3
-498.r_month-3
-499.r_month*
-500.r_month*
+497.r_month*
+498.r_random
+499.r_month-2
+500.r_month-2
+
+!!!study_roster(max weekly target)
+{"vpc",
+"office excellence study*",
+"revision*",
+"ec2",
+"ebs",
+"elb",
+"auto scaling",
+"rds and aurora",
+"cloud trail",
+"s3",
+"efs", 
+"route53",
+"cloud 53", 
+"other aws services",
+"application load balancer",
+"network load balancer",
+"IAM", 
+"misc services", 
+"wrap up", 
+"practice tests"}));
+
+1. 4
+2. 3
+3. revision*
+4. 3
+5. 7
+6. 2
+7. 2
+8. 2
+9. 2
+10. revision*
+11. 7
+12. revision*
+13. 7
+14. 4
+15. 4
+16. 7
+17. revision*
+18. 7
+19. revision*
+20. 7
+21. 7
+22. 7
+23. 4
+24. 4
+25. 4
+26. 4
+27. 4
+28. revision*
+29. 4
+30. 7
+31. 7
+32. 7
+33. 7
+34. 7
+35. 7
+36. revision*
+37. 7
+38. revision*
+39. 7
+40. revision*
+41. revision*
+42. 4
+43. revision*
+44. 10
+45. 10
+46. 10
+47. 10
+48. 2
+49. 2
+50. 2
+51. 10
+52. revision*
+53. revision*
+54. 2
+55. 4
+56. 4
+57. revision*
+58. 4
+59. revision*
+60. 4
+61. 2
+62. 2
+63. revision*
+64. revision*
+65. 2
+66. 2
+67. 7
+68. 2
+69. 2
+70. revision*
+71. 2
+72. 2
+73. 2
+74. revision*
+75. revision*
+76. 2
+77. 2
+78. 3
+79. 3
+80. 7
+81. 7
+82. revision*
+83. 2
+84. 2
+85. 2
+86. 1
+87. 1
+88. 1
+89. 2
+90. revision*
+91. 2
+92. 2
+93. revision*
+94. 2
+95. 2
+96. 3
+97. 3
+98. revision*
+99. 3
+100. revision*
+101. 1
+102. revision*
+103. 1
+104. 1
+105. 3
+106. 3
+107. 3
+108. 3
+109. 3
+110. 7
+111. 7
+112. 7
+113. revision*
+114. 7
+115. 7
+116. 7
+117. revision*
+118. 7
+119. 3
+120. 3
+121. 3
+122. 1
+123. 1
+124. 1
+125. 3
+126. 3
+127. revision*
+128. 3
+129. 3
+130. 1
+131. 1
+132. 7
+133. 7
+134. 7
+135. 7
+136. 7
+137. 7
+138. 7
+139. revision*
+140. 7
+141. 7
+142. 7
+143. 1
+144. 1
+145. revision*
+146. 7
+147. revision*
+148. 7
+149. 7
+150. 3
+151. 3
+152. 7
+153. 1
+154. 1
+155. revision*
+156. 7
+157. 1
+158. 7
+159. revision*
+160. revision*
+161. revision*
+162. revision*
+163. 3
+164. revision*
+165. 3
+166. 3
+167. 7
+168. 3
+169. 3
+170. 7
+171. revision*
+172. 7
+173. 7
+174. 7
+175. 3
+176. 3
+177. 1
+178. 3
+179. 1
+180. 1
+181. 1
+182. 1
+183. 2
+184. 2
+185. 1
+186. 1
+187. 3
+188. revision*
+189. 3
+190. 3
+191. 3
+192. 3
+193. 1
+194. 1
+195. 1
+196. revision*
+197. 2
+198. 1
+199. revision*
+200. revision*
+201. 2
+202. revision*
+203. revision*
+204. revision*
+205. 2
+206. 2
+207. 1
+208. 5
+209. 1
+210. revision*
+211. revision*
+212. 1
+213. 1
+214. 1
+215. 1
+216. 1
+217. 1
+218. revision*
+219. 1
+220. 1
+221. 1
+222. 1
+223. revision*
+224. 2
+225. 5
+226. revision*
+227. 5
+228. 5
+229. 5
+230. 2
+231. 2
+232. 2
+233. revision*
+234. 2
+235. revision*
+236. 2
+237. 2
+238. 2
+239. 2
+240. 2
+241. 2
+242. 2
+243. 2
+244. 5
+245. revision*
+246. revision*
+247. 6
+248. 6
+249. 5
+250. 5
+251. 6
+252. 6
+253. 6
+254. 6
+255. 6
+256. 6
+257. revision*
+258. revision*
+259. 6
+260. 6
+261. 6
+262. 6
+263. 7
+264. 7
+265. 7
+266. 5
+267. revision*
+268. revision*
+269. revision*
+270. revision*
+271. 5
+272. 7
+273. 7
+274. 5
+275. 7
+276. revision*
+277. 7
+278. revision*
+279. 7
+280. 7
+281. revision*
+282. revision*
+283. 5
+284. revision*
+285. revision*
+286. 5
+287. 5
+288. revision*
+289. 5
+290. 7
+291. revision*
+292. revision*
+293. 5
+294. 7
+295. 7
+296. revision*
+297. 7
+298. 7
+299. revision*
+300. 7
+301. revision*
+302. revision*
+303. 7
+304. 7
+305. revision*
+306. revision*
+307. revision*
+308. revision*
+309. 7
+310. 7
+311. 7
+312. 5
+313. 4
+314. 6
+315. revision*
+316. 4
+317. revision*
+318. revision*
+319. revision*
+320. 6
+321. 6
+322. 6
+323. revision*
+324. revision*
+325. 2
+326. revision*
+327. 2
+328. revision*
+329. 6
+330. 2
+331. 2
+332. 2
+333. 2
+334. revision*
+335. revision*
+336. 2
+337. 2
+338. 4
+339. 4
+340. 2
+341. revision*
+342. revision*
+343. revision*
+344. revision*
+345. revision*
+346. 6
+347. 6
+348. 6
+349. 6
+350. revision*
+351. 6
+352. 6
+353. 6
+354. 6
+355. 6
+356. 6
+357. 5
+358. revision*
+359. 4
+360. 4
+361. 5
+362. 5
+363. 4
+364. 4
+365. 4
+366. 4
+367. 4
+368. 4
+369. 3
+370. 7
+371. revision*
+372. 3
+373. revision*
+374. revision*
+375. 3
+376. 3
+377. 3
+378. 3
+379. revision*
+380. 4
+381. 4
+382. 3
+383. revision*
+384. 5
+385. 3
+386. 3
+387. 3
+388. 8
+389. 8
+390. 8
+391. revision*
+392. revision*
+393. 3
+394. 5
+395. revision*
+396. 5
+397. revision*
+398. 8
+399. 3
+400. 3
+401. 8
+402. 8
+403. 8
+404. 8
+405. 8
+406. revision*
+407. 8
+408. 4
+409. revision*
+410. 4
+411. 4
+412. revision*
+413. 4
+414. 4
+415. 4
+416. 8
+417. 8
+418. 4
+419. 4
+420. 12
+421. revision*
+422. 12
+423. 12
+424. 4
+425. 3
+426. revision*
+427. 3
+428. 3
+429. revision*
+430. 3
+431. 4
+432. 4
+433. 4
+434. 12
+435. revision*
+436. 12
+437. 12
+438. 12
+439. 12
+440. 4
+441. 4
+442. 4
+443. 4
+444. 4
+445. revision*
+446. 4
+447. 4
+448. 8
+449. revision*
+450. 8
+451. 8
+452. revision*
+453. 8
+454. 8
+455. 3
+456. 3
+457. 8
+458. 8
+459. 8
+460. revision*
+461. 8
+462. 8
+463. 8
+464. 8
+465. 1
+466. 1
+467. 3
+468. 3
+469. revision*
+470. 3
+471. 4
+472. 4
+473. revision*
+474. 5
+475. 5
+476. 8
+477. 8
+478. 4
+479. revision*
+480. 8
+481. revision*
+482. 8
+483. revision*
+484. revision*
+485. revision*
+486. revision*
+487. revision*
+488. 8
+489. 6
+490. 6
+491. revision*
+492. revision*
+493. 3
+494. revision*
+495. 3
+496. 3
+497. 3
+498. 3
+499. 3
+500. 3
+
+
+!!!office excellence study
+"d&k",
+"graphql",
+"typescript",
+"flexbox"
+"react-native",
+"html5 and latest css",
+
+1. 1<-- october,2019
+2. 1
+3. 2
+4. 3
+5. 3
+6. 3
+7. 3
+8. 1
+9. 1
+10. 2
+11. 6
+12. 6
+13. 1
+14. 1
+15. 6
+16. 6
+17. 6
+18. 5
+19. 5
+20. 5
+21. 2
+22. 5
+23. 5
+24. 5
+25. 5
+26. 1
+27. 5
+28. 5
+29. 1
+30. 3
+31. 3
+32. 3
+33. 5
+34. 3
+35. 3
+36. 3
+37. 6
+38. 6
+39. 6
+40. 6
+41. 3
+42. 3
+43. 3
+44. 3
+45. 3
+46. 1
+47. 2
+48. 2
+49. 2
+50. 3
+51. 6
+52. 4
+53. 3
+54. 3
+55. 3
+56. 3
+57. 4
+58. 3
+59. 4
+60. 6
+61. 4
+62. 4
+63. 4
+64. 3
+65. 3
+66. 3
+67. 3
+68. 4
+69. 3
+70. 3
+71. 3
+72. 4
+73. 3
+74. 3
+75. 4
+76. 6
+77. 4
+78. 4
+79. 4
+80. 6
+81. 6
+82. 6
+83. 4
+84. 6
+85. 6
+86. 5
+87. 5
+88. 2
+89. 2
+90. 2
+91. 6
+92. 6
+93. 6
+94. 2
+95. 5
+96. 2
+97. 2
+98. 5
+99. 2
+100. 5
+101. 2
+102. 2
+103. 4
+104. 2
+105. 3
+106. 2
+107. 4
+108. 4
+109. 4
+110. 3
+111. 5
+112. 5
+113. 3
+114. 3
+115. 3
+116. 5
+117. 5
+118. 5
+119. 3
+120. 3
+121. 3
+122. 3
+123. 3
+124. 4
+125. 4
+126. 3
+127. 4
+128. 2
+129. 2
+130. 2
+131. 2
+132. 3
+133. 3
+134. 4
+135. 4
+136. 4
+137. 4
+138. 5
+139. 5
+140. 4
+141. 2
+142. 4
+143. 4
+144. 5
+145. 3
+146. 3
+147. 5
+148. 3
+149. 3
+150. 1
+151. 1
+152. 1
+153. 5
+154. 4
+155. 4
+156. 4
+157. 5
+158. 4
+159. 4
+160. 4
+161. 4
+162. 1
+163. 1
+164. 1
+165. 1
+166. 1
+167. 5
+168. 5
+169. 1
+170. 1
+171. 1
+172. 1
+173. 4
+174. 4
+175. 4
+176. 2
+177. 4
+178. 1
+179. 1
+180. 3
+181. 4
+182. 4
+183. 4
+184. 5
+185. 5
+186. 1
+187. 1
+188. 5
+189. 3
+190. 1
+191. 1
+192. 3
+193. 5
+194. 3
+195. 5
+196. 1
+197. 1
+198. 4
+199. 4
+200. 4
+201. 5
+202. 2
+203. 5
+204. 4
+205. 5
+206. 5
+207. 5
+208. 5
+209. 5
+210. 5
+211. 2
+212. 5
+213. 5
+214. 4
+215. 4
+216. 4
+217. 4
+218. 4
+219. 2
+220. 2
+221. 4
+222. 2
+223. 1
+224. 1
+225. 4
+226. 4
+227. 2
+228. 5
+229. 4
+230. 4
+231. 4
+232. 5
+233. 2
+234. 2
+235. 5
+236. 5
+237. 5
+238. 2
+239. 5
+240. 5
+241. 2
+242. 4
+243. 4
+244. 1
+245. 2
+246. 1
+247. 4
+248. 5
+249. 5
+250. 5
+251. 6
+252. 6
+253. 6
+254. 6
+255. 5
+256. 5
+257. 4
+258. 1
+259. 4
+260. 4
+261. 6
+262. 6
+263. 6
+264. 6
+265. 6
+266. 5
+267. 4
+268. 6
+269. 6
+270. 6
+271. 4
+272. 4
+273. 4
+274. 4
+275. 4
+276. 4
+277. 4
+278. 6
+279. 6
+280. 6
+281. 6
+282. 5
+283. 5
+284. 1
+285. 1
+286. 1
+287. 1
+288. 1
+289. 1
+290. 5
+291. 1
+292. 4
+293. 1
+294. 1
+295. 4
+296. 4
+297. 5
+298. 5
+299. 5
+300. 5
+301. 5
+302. 5
+303. 5
+304. 4
+305. 4
+306. 4
+307. 5
+308. 5
+309. 3
+310. 5
+311. 5
+312. 5
+313. 5
+314. 5
+315. 5
+316. 3
+317. 2
+318. 3
+319. 3
+320. 3
+321. 2
+322. 2
+323. 3
+324. 3
+325. 2
+326. 2
+327. 2
+328. 2
+329. 5
+330. 3
+331. 3
+332. 3
+333. 2
+334. 2
+335. 2
+336. 2
+337. 5
+338. 2
+339. 5
+340. 5
+341. 5
+342. 2
+343. 5
+344. 2
+345. 2
+346. 2
+347. 4
+348. 3
+349. 3
+350. 3
+351. 3
+352. 4
+353. 4
+354. 3
+355. 3
+356. 2
+357. 2
+358. 2
+359. 2
+360. 3
+361. 3
+362. 2
+363. 2
+364. 2
+365. 3
+366. 3
+367. 3
+368. 3
+369. 2
+370. 3
+371. 1
+372. 3
+373. 1
+374. 1
+375. 1
+376. 3
+377. 3
+378. 1
+379. 1
+380. 3
+381. 1
+382. 4
+383. 4
+384. 4
+385. 2
+386. 2
+387. 1
+388. 4
+389. 4
+390. 4
+391. 4
+392. 4
+393. 4
+394. 4
+395. 2
+396. 4
+397. 2
+398. 2
+399. 2
+400. 1
+401. 1
+402. 5
+403. 1
+404. 4
+405. 4
+406. 1
+407. 5
+408. 1
+409. 5
+410. 5
+411. 1
+412. 5
+413. 5
+414. 5
+415. 5
+416. 1
+417. 1
+418. 1
+419. 5
+420. 5
+421. 2
+422. 2
+423. 2
+424. 5
+425. 2
+426. 2
+427. 5
+428. 5
+429. 2
+430. 2
+431. 5
+432. 4
+433. 5
+434. 4
+435. 4
+436. 4
+437. 4
+438. 2
+439. 4
+440. 4
+441. 4
+442. 5
+443. 5
+444. 4
+445. 4
+446. 4
+447. 2
+448. 4
+449. 2
+450. 5
+451. 5
+452. 5
+453. 5
+454. 5
+455. 5
+456. 5
+457. 2
+458. 2
+459. 5
+460. 5
+461. 4
+462. 4
+463. 2
+464. 2
+465. 2
+466. 3
+467. 3
+468. 3
+469. 2
+470. 2
+471. 2
+472. 3
+473. 5
+474. 5
+475. 3
+476. 3
+477. 5
+478. 5
+479. 5
+480. 6
+481. 6
+482. 6
+483. 6
+484. 5
+485. 6
+486. 6
+487. 6
+488. 3
+489. 3
+490. 3
+491. 6
+492. 6
+493. 6
+494. 6
+495. 6
+496. 6
+497. 2
+498. 2
+499. 6
+500. 5
 
 
 17
@@ -1111,7 +1663,20 @@ i2- 4
 --
 !!! time table
 
-Non-fasting-weekdays- 6am- wake up 6-10:30- study + pranayam + 2*protein drink + fresh 10:30-11- get ready for office 11-12-travel 12-7-office + lunch + dinner 7-8-travel to gym 8-10-gym + protein shake 10-11-rtn2 + sarvangasan 11-6-- sleep 
+- all weekends are for studies , 8 divisible weekends is for studies. 
+- all other study days - 3.66 on average to be used for health , if you get a wfh day , use it for going to gym twice.
+- all 8 divisible study days are for revision
+
+monday,wednesday,friday - office + health , 4 divisibles are for work from home where you'll go to the gym twice.
+tuesday,thursday - study for office(5h) + 9h of office work + fasting
+saturday - target study
+sunday - target study
+
+non-fasting-health-weekday- 6am-wake up 6-8-get ready 8-8:30-travel to gym 8:30-9:30-workout 9:30-10-travel back 10-11- get ready for office 11-12-travel 12-10-office 10-11-walk back home 11-12-break act 12-sleep ( try to save time to sleep at 11 and do 2x yoga and sarvangaasan) 
+
+non-fasting-health-weekend- 6am-wake up 6-8-get ready 8-8:30-travel to gym 8:30-9:30-workout 9:30-10-travel back 11-8-sleep 8-9-get ready and reach gym 9-10-workout 10-11-dinner and travel back 11-12-wind down 12-1-break act 1-sleep 
+ 
+Non-fasting-study weekdays- 6am- wake up 6-11- study + pranayam + 2*protein drink + fresh 11-7-revision 7-8-get ready and reach gym 8-9-workout 9-10-dinner + travel back 10-11-wind down 11-12-break act
 
 fasting weekdays- 6am- wake up 6-10:30- study + pranayam + 2*protein drink + fresh 10:30-11- get ready for office 11-12-travel 12-7-office + lunch + dinner 7-8-travel to room 8-10-work/study 10-11-rtn2 + sarvangasan 11-6-- sleep 
 
@@ -1122,3 +1687,63 @@ fasting-weekend- 6am- wake up 6-10pm - study 10-11-rtn2 + sarvangasan 11-6-- sle
 28
 --
 graphql 1-5 it1
+
+29
+---
+
+october
+
+6th
+---
+- how to create react middleware . 
+- code for createStore 
+- code for redux thunk 
+- immutable.js
+- typescript partial and other utility classes.
+
+9th
+---
+- service worker in javascript
+- 
+
+12th
+----
+udemy - aws architect associate ebs 1-10 iter 1
+
+RDS and Aurora
+--------------
+
+https://048373841000.signin.aws.amazon.com/console
+https://piyush-2-root.signin.aws.amazon.com/console
+
+notes
+- non-relational dbs are best suited for OLAP.
+non relational types 
+	- columnar database
+	- document database
+	- graph databases
+	- in-memory key-value databases
+	
+- the subnet cannot cross an availability zone.
+- CNAME is the dns of the aws resource( canonical name)
+	
+Q.
+1.why relational db does not scale horizontally 2.s
+
+
+
+EBS(Elastic BackStore)
+----------------------
+- types of block storage 
+	- block store ( like files and folder eg. S3)  - ebs backed ec2 instance ( os/boot volume on an ebs block store) can be restarted , rebooted . 
+	- instance store ( not persistent) - limited to 10GB per volume. - it is a virtual hard drive allocated to the ec2 instance . instance-store backed ec2 instances boot from an AMI stored on an S3.  ec2 instance can't be stopped , can only be rebooted or terminated. reboot will not erase the instance store data.
+	- ter
+	
+- NAS ? 
+- elastic block storage is mapped to the ec2 instance via NAS in the same availability zone . It doesn't exist physically or virtually on the guest OS . EBS can be a root volume ( with OS)or a data volume ( containing applications.). EBS is persistent . 
+
+https://piyush-2-root.signin.aws.amazon.com/console
+
+root - piyush.2.aws@gmail.com - P@ssw0rd
+admiin - piyush_admin - Jan@@2001
+
