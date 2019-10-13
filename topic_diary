@@ -1,5 +1,5 @@
 !!!current roster
-!!! time table
+!!!time table
 !!!rev_roster
 !!!study_roster
 !!!office routine
@@ -604,7 +604,6 @@ activity
 
 !!!study_roster(max weekly target)
 {"vpc",
-"office excellence study*",
 "revision*",
 "ec2",
 "ebs",
@@ -624,8 +623,8 @@ activity
 "wrap up", 
 "practice tests"}));
 
-1. 4
-2. 3
+1. 3 <--- ebs october,2019
+2. 4
 3. revision*
 4. 3
 5. 7
@@ -1661,14 +1660,17 @@ i2- 4
 
 23
 --
-!!! time table
+!!!time table
 
-- all weekends are for studies , 8 divisible weekends is for studies. 
-- all other study days - 3.66 on average to be used for health , if you get a wfh day , use it for going to gym twice.
-- all 8 divisible study days are for revision
+- all weekends are for studies.
+- all other non-study days - 3.66 on average to be used for health , if you get a wfh day , use it for going to gym twice.
+- all 4 divisible study days are for revision.
+- all non-weekend study days are for studying for office work .
+- on fasting study weekdays , do office work 
+- on non-fasting study weekdays , do office work and go to the gym. 
 
-monday,wednesday,friday - office + health , 4 divisibles are for work from home where you'll go to the gym twice.
 tuesday,thursday - study for office(5h) + 9h of office work + fasting
+monday,wednesday,friday - office + health , 4 divisibles are for work from home where you'll go to the gym twice.
 saturday - target study
 sunday - target study
 
@@ -1747,3 +1749,6 @@ https://piyush-2-root.signin.aws.amazon.com/console
 root - piyush.2.aws@gmail.com - P@ssw0rd
 admiin - piyush_admin - Jan@@2001
 
+13
+https://aws.amazon.com/blogs/aws/new-encrypted-ebs-boot-volumes/
+udemy - aws architect associate ebs 11-16
