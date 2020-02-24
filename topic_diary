@@ -1,21 +1,3 @@
-!!!current roster
-!!!time table
-!!!rev_roster
-!!!study_roster
-!!!office routine
-!!!htime table
-!!!office routine
-6am- wake up 6-8-get ready 8-9-travel 9-8-office 8-9-travel 9-10-break time excluding h 10-11-diary,sarvangasan,sleep 
-
-
-!!! health routine 
-6am- wake up 6-10-gym if pending and/or break time activity including h 10-11-get ready 11-12--travel 12-7--office 7-8--reach gym 8-10-gym 10-11-dinner and come back home 11-12-rtn2
-or
-6am- wake up 6-10-gym if pending and/or break time activity including h 10-11-get ready 11-12--travel 12-7--office 7-8--reach gym 8-10-gym 10-11-dinner and come back home 11-12-rtn2
-- gym aim 9 times a week
-
-!!! study routine
-6am- wake up 6-8-study 8-9-get ready 9-11-study 11-12-travel 12-7-office 7-8--travel 8-9-sarvangaasan and yoga 9-11-study 11-6--sleep
 
 8/27/2019	refactoring - chapter 1 to 3, creating a connected component in react , setting up react saga , difference between test stubs and test mocks(martin fowler article)
 8/28/2019	flexbox mdn site , css selectors w3 schools , refactoring chapter 4-9 
@@ -29,7 +11,8 @@ or
 September 7th
 ==============
 
-1.Kruskal algorithm 2.Prim's algorithm 3.running time for insertion and pop from a heap 4. how to make a stream for finite for loops 5.heap implementation for any comparable object  GridOfManyXors - did everything right but still the solution doesn't work leave it v(logV) + ElogV why is prim algorithm mmm - moniker - an informal name
+1.Kruskal algorithm 2.Prim's algorithm 3.running time for insertion and pop from a heap 4. how to make a stream for finite for loops 5.heap implementation for any comparable object  GridOfManyXors - did everything right but still the solution doesn't work leave it 
+v(logV) + ElogV why is prim algorithm mmm - moniker - an informal name
 
 
 8th
@@ -101,1538 +84,6 @@ activity
 !!!activity roster (monthly target) - break point - 10% body fat
 
 !!!rev_roster(daily)
-1.r_month* <--
-2.r_month*
-3.r_month-1
-4.r_month*
-5.r_year
-6.r_month*
-7.r_year
-8.r_random
-9.r_random
-10.r_month*
-11.r_random
-12.r_month*
-13.r_month*
-14.r_month*
-15.r_random
-16.r_month*
-17.r_month*
-18.r_month*
-19.r_month*
-20.r_year-1
-21.r_month*
-22.r_random
-23.r_year-1
-24.r_month*
-25.r_year-1
-26.r_year-1
-27.r_year-1
-28.r_random
-29.r_month*
-30.r_month*
-31.r_month*
-32.r_month*
-33.r_month*
-34.r_month-2
-35.r_random
-36.r_random
-37.r_year
-38.r_random
-39.r_month*
-40.r_month*
-41.r_random
-42.r_month*
-43.r_random
-44.r_month-2
-45.r_month*
-46.r_month-2
-47.r_month-2
-48.r_month-2
-49.r_random
-50.r_month-2
-51.r_random
-52.r_month*
-53.r_year-1
-54.r_month*
-55.r_month*
-56.r_month*
-57.r_year-1
-58.r_random
-59.r_random
-60.r_random
-61.r_month*
-62.r_month*
-63.r_random
-64.r_month*
-65.r_month*
-66.r_year
-67.r_month*
-68.r_random
-69.r_month*
-70.r_year
-71.r_month*
-72.r_random
-73.r_month*
-74.r_month*
-75.r_month*
-76.r_month*
-77.r_month*
-78.r_year-1
-79.r_month*
-80.r_month*
-81.r_month*
-82.r_month*
-83.r_year-1
-84.r_month-2
-85.r_year-1
-86.r_month-1
-87.r_month*
-88.r_year-1
-89.r_month*
-90.r_month*
-91.r_month*
-92.r_random
-93.r_month*
-94.r_month*
-95.r_month-1
-96.r_month*
-97.r_year
-98.r_month*
-99.r_month*
-100.r_month-2
-101.r_month-2
-102.r_month*
-103.r_year
-104.r_random
-105.r_random
-106.r_month*
-107.r_random
-108.r_year
-109.r_month*
-110.r_month*
-111.r_year
-112.r_random
-113.r_random
-114.r_month*
-115.r_random
-116.r_month*
-117.r_month-2
-118.r_month-2
-119.r_month-2
-120.r_month*
-121.r_month*
-122.r_month-2
-123.r_month-2
-124.r_month-2
-125.r_month*
-126.r_month-1
-127.r_month*
-128.r_month*
-129.r_year
-130.r_month*
-131.r_month*
-132.r_month-2
-133.r_month-2
-134.r_year
-135.r_year
-136.r_year-1
-137.r_month-2
-138.r_month*
-139.r_month-2
-140.r_month*
-141.r_month*
-142.r_year-1
-143.r_year-1
-144.r_month*
-145.r_year-1
-146.r_month*
-147.r_month*
-148.r_month*
-149.r_month*
-150.r_month*
-151.r_year-1
-152.r_month*
-153.r_month*
-154.r_year
-155.r_month*
-156.r_year
-157.r_month*
-158.r_month-2
-159.r_month*
-160.r_month-2
-161.r_month*
-162.r_month*
-163.r_random
-164.r_year-1
-165.r_month*
-166.r_month*
-167.r_month-1
-168.r_month-2
-169.r_month*
-170.r_month-1
-171.r_month*
-172.r_month*
-173.r_year-1
-174.r_month-1
-175.r_year-1
-176.r_year-1
-177.r_month*
-178.r_year-1
-179.r_month-2
-180.r_month-2
-181.r_year
-182.r_month*
-183.r_month*
-184.r_year
-185.r_month*
-186.r_year
-187.r_month-2
-188.r_month*
-189.r_month-2
-190.r_month*
-191.r_year
-192.r_month*
-193.r_year-1
-194.r_year-1
-195.r_month*
-196.r_year-1
-197.r_year
-198.r_month*
-199.r_month*
-200.r_year
-201.r_month*
-202.r_random
-203.r_random
-204.r_year
-205.r_year
-206.r_month*
-207.r_random
-208.r_year-1
-209.r_random
-210.r_year-1
-211.r_year-1
-212.r_month*
-213.r_month-1
-214.r_month*
-215.r_month*
-216.r_month*
-217.r_year
-218.r_month*
-219.r_year
-220.r_month-2
-221.r_month-2
-222.r_year
-223.r_month*
-224.r_year
-225.r_year
-226.r_month-2
-227.r_month*
-228.r_month*
-229.r_month-2
-230.r_month*
-231.r_year
-232.r_month*
-233.r_random
-234.r_month-2
-235.r_random
-236.r_month-2
-237.r_month*
-238.r_month*
-239.r_month*
-240.r_month-2
-241.r_month-2
-242.r_random
-243.r_month*
-244.r_random
-245.r_year-1
-246.r_month*
-247.r_month*
-248.r_month*
-249.r_year
-250.r_month*
-251.r_year
-252.r_month*
-253.r_month-1
-254.r_month-1
-255.r_year-1
-256.r_random
-257.r_year-1
-258.r_month*
-259.r_month-1
-260.r_month-2
-261.r_month*
-262.r_month*
-263.r_month*
-264.r_month*
-265.r_month*
-266.r_month-2
-267.r_month*
-268.r_month-2
-269.r_month*
-270.r_month*
-271.r_month*
-272.r_month*
-273.r_month-2
-274.r_month*
-275.r_month-1
-276.r_month*
-277.r_month-1
-278.r_year
-279.r_month-1
-280.r_month*
-281.r_month*
-282.r_month*
-283.r_year
-284.r_month*
-285.r_year
-286.r_year
-287.r_month*
-288.r_year
-289.r_month-1
-290.r_month*
-291.r_month-1
-292.r_month-1
-293.r_month-1
-294.r_month*
-295.r_month*
-296.r_month*
-297.r_month*
-298.r_month*
-299.r_month*
-300.r_month-1
-301.r_month*
-302.r_month*
-303.r_month*
-304.r_month*
-305.r_month*
-306.r_month-1
-307.r_month*
-308.r_year
-309.r_month*
-310.r_year
-311.r_month*
-312.r_month*
-313.r_month*
-314.r_month*
-315.r_month*
-316.r_month*
-317.r_year
-318.r_month*
-319.r_year
-320.r_month*
-321.r_year
-322.r_month-1
-323.r_month*
-324.r_month*
-325.r_month*
-326.r_month-1
-327.r_month*
-328.r_month-2
-329.r_month-1
-330.r_month*
-331.r_month*
-332.r_month*
-333.r_month-1
-334.r_month-1
-335.r_month*
-336.r_month*
-337.r_month*
-338.r_month-1
-339.r_month*
-340.r_month-1
-341.r_month*
-342.r_month*
-343.r_month*
-344.r_month-2
-345.r_month*
-346.r_month*
-347.r_year-1
-348.r_month-2
-349.r_month*
-350.r_year-1
-351.r_month*
-352.r_month*
-353.r_month*
-354.r_month*
-355.r_month-2
-356.r_month-2
-357.r_year
-358.r_month*
-359.r_month*
-360.r_random
-361.r_month*
-362.r_month*
-363.r_random
-364.r_year-1
-365.r_year-1
-366.r_month*
-367.r_month*
-368.r_month-2
-369.r_random
-370.r_month*
-371.r_month-1
-372.r_month-2
-373.r_month*
-374.r_month*
-375.r_month*
-376.r_random
-377.r_month*
-378.r_random
-379.r_month*
-380.r_month*
-381.r_month*
-382.r_month*
-383.r_random
-384.r_month*
-385.r_month-1
-386.r_month*
-387.r_month-1
-388.r_month-1
-389.r_month*
-390.r_month-1
-391.r_month-1
-392.r_month-2
-393.r_month*
-394.r_month*
-395.r_month-2
-396.r_month*
-397.r_month*
-398.r_month-2
-399.r_month-1
-400.r_random
-401.r_month*
-402.r_month-1
-403.r_month*
-404.r_month*
-405.r_month*
-406.r_month-1
-407.r_random
-408.r_month*
-409.r_random
-410.r_month*
-411.r_month*
-412.r_month*
-413.r_month*
-414.r_month-1
-415.r_month*
-416.r_month*
-417.r_month-1
-418.r_month*
-419.r_month-1
-420.r_random
-421.r_month-1
-422.r_month-1
-423.r_month*
-424.r_month*
-425.r_month-1
-426.r_month*
-427.r_month*
-428.r_month-1
-429.r_month*
-430.r_year-1
-431.r_random
-432.r_month*
-433.r_year-1
-434.r_year-1
-435.r_month*
-436.r_year-1
-437.r_year-1
-438.r_month*
-439.r_month*
-440.r_year-1
-441.r_month-1
-442.r_month*
-443.r_month*
-444.r_month*
-445.r_month*
-446.r_month*
-447.r_month*
-448.r_year-1
-449.r_month*
-450.r_random
-451.r_month*
-452.r_month*
-453.r_month*
-454.r_random
-455.r_year-1
-456.r_year-1
-457.r_month*
-458.r_month*
-459.r_random
-460.r_year-1
-461.r_month*
-462.r_month*
-463.r_month-2
-464.r_month*
-465.r_month*
-466.r_random
-467.r_month-2
-468.r_random
-469.r_month-1
-470.r_month*
-471.r_month*
-472.r_month-1
-473.r_month*
-474.r_random
-475.r_random
-476.r_month*
-477.r_month*
-478.r_month*
-479.r_month-2
-480.r_month-2
-481.r_random
-482.r_random
-483.r_random
-484.r_month*
-485.r_month*
-486.r_month*
-487.r_random
-488.r_month-2
-489.r_random
-490.r_random
-491.r_month*
-492.r_month*
-493.r_month*
-494.r_month*
-495.r_month*
-496.r_month*
-497.r_month*
-498.r_random
-499.r_month-2
-500.r_month-2
-
-!!!study_roster(max weekly target)
-{"vpc",
-"revision*",
-"ec2",
-"ebs",
-"elb",
-"auto scaling",
-"rds and aurora",
-"cloud trail",
-"s3",
-"efs", 
-"route53",
-"cloud 53", 
-"other aws services",
-"application load balancer",
-"network load balancer",
-"IAM", 
-"misc services", 
-"wrap up", 
-"practice tests"}));
-
-1. 3 <--- ebs october,2019
-2. 4
-3. revision*
-4. 3
-5. 7
-6. 2
-7. 2
-8. 2
-9. 2
-10. revision*
-11. 7
-12. revision*
-13. 7
-14. 4
-15. 4
-16. 7
-17. revision*
-18. 7
-19. revision*
-20. 7
-21. 7
-22. 7
-23. 4
-24. 4
-25. 4
-26. 4
-27. 4
-28. revision*
-29. 4
-30. 7
-31. 7
-32. 7
-33. 7
-34. 7
-35. 7
-36. revision*
-37. 7
-38. revision*
-39. 7
-40. revision*
-41. revision*
-42. 4
-43. revision*
-44. 10
-45. 10
-46. 10
-47. 10
-48. 2
-49. 2
-50. 2
-51. 10
-52. revision*
-53. revision*
-54. 2
-55. 4
-56. 4
-57. revision*
-58. 4
-59. revision*
-60. 4
-61. 2
-62. 2
-63. revision*
-64. revision*
-65. 2
-66. 2
-67. 7
-68. 2
-69. 2
-70. revision*
-71. 2
-72. 2
-73. 2
-74. revision*
-75. revision*
-76. 2
-77. 2
-78. 3
-79. 3
-80. 7
-81. 7
-82. revision*
-83. 2
-84. 2
-85. 2
-86. 1
-87. 1
-88. 1
-89. 2
-90. revision*
-91. 2
-92. 2
-93. revision*
-94. 2
-95. 2
-96. 3
-97. 3
-98. revision*
-99. 3
-100. revision*
-101. 1
-102. revision*
-103. 1
-104. 1
-105. 3
-106. 3
-107. 3
-108. 3
-109. 3
-110. 7
-111. 7
-112. 7
-113. revision*
-114. 7
-115. 7
-116. 7
-117. revision*
-118. 7
-119. 3
-120. 3
-121. 3
-122. 1
-123. 1
-124. 1
-125. 3
-126. 3
-127. revision*
-128. 3
-129. 3
-130. 1
-131. 1
-132. 7
-133. 7
-134. 7
-135. 7
-136. 7
-137. 7
-138. 7
-139. revision*
-140. 7
-141. 7
-142. 7
-143. 1
-144. 1
-145. revision*
-146. 7
-147. revision*
-148. 7
-149. 7
-150. 3
-151. 3
-152. 7
-153. 1
-154. 1
-155. revision*
-156. 7
-157. 1
-158. 7
-159. revision*
-160. revision*
-161. revision*
-162. revision*
-163. 3
-164. revision*
-165. 3
-166. 3
-167. 7
-168. 3
-169. 3
-170. 7
-171. revision*
-172. 7
-173. 7
-174. 7
-175. 3
-176. 3
-177. 1
-178. 3
-179. 1
-180. 1
-181. 1
-182. 1
-183. 2
-184. 2
-185. 1
-186. 1
-187. 3
-188. revision*
-189. 3
-190. 3
-191. 3
-192. 3
-193. 1
-194. 1
-195. 1
-196. revision*
-197. 2
-198. 1
-199. revision*
-200. revision*
-201. 2
-202. revision*
-203. revision*
-204. revision*
-205. 2
-206. 2
-207. 1
-208. 5
-209. 1
-210. revision*
-211. revision*
-212. 1
-213. 1
-214. 1
-215. 1
-216. 1
-217. 1
-218. revision*
-219. 1
-220. 1
-221. 1
-222. 1
-223. revision*
-224. 2
-225. 5
-226. revision*
-227. 5
-228. 5
-229. 5
-230. 2
-231. 2
-232. 2
-233. revision*
-234. 2
-235. revision*
-236. 2
-237. 2
-238. 2
-239. 2
-240. 2
-241. 2
-242. 2
-243. 2
-244. 5
-245. revision*
-246. revision*
-247. 6
-248. 6
-249. 5
-250. 5
-251. 6
-252. 6
-253. 6
-254. 6
-255. 6
-256. 6
-257. revision*
-258. revision*
-259. 6
-260. 6
-261. 6
-262. 6
-263. 7
-264. 7
-265. 7
-266. 5
-267. revision*
-268. revision*
-269. revision*
-270. revision*
-271. 5
-272. 7
-273. 7
-274. 5
-275. 7
-276. revision*
-277. 7
-278. revision*
-279. 7
-280. 7
-281. revision*
-282. revision*
-283. 5
-284. revision*
-285. revision*
-286. 5
-287. 5
-288. revision*
-289. 5
-290. 7
-291. revision*
-292. revision*
-293. 5
-294. 7
-295. 7
-296. revision*
-297. 7
-298. 7
-299. revision*
-300. 7
-301. revision*
-302. revision*
-303. 7
-304. 7
-305. revision*
-306. revision*
-307. revision*
-308. revision*
-309. 7
-310. 7
-311. 7
-312. 5
-313. 4
-314. 6
-315. revision*
-316. 4
-317. revision*
-318. revision*
-319. revision*
-320. 6
-321. 6
-322. 6
-323. revision*
-324. revision*
-325. 2
-326. revision*
-327. 2
-328. revision*
-329. 6
-330. 2
-331. 2
-332. 2
-333. 2
-334. revision*
-335. revision*
-336. 2
-337. 2
-338. 4
-339. 4
-340. 2
-341. revision*
-342. revision*
-343. revision*
-344. revision*
-345. revision*
-346. 6
-347. 6
-348. 6
-349. 6
-350. revision*
-351. 6
-352. 6
-353. 6
-354. 6
-355. 6
-356. 6
-357. 5
-358. revision*
-359. 4
-360. 4
-361. 5
-362. 5
-363. 4
-364. 4
-365. 4
-366. 4
-367. 4
-368. 4
-369. 3
-370. 7
-371. revision*
-372. 3
-373. revision*
-374. revision*
-375. 3
-376. 3
-377. 3
-378. 3
-379. revision*
-380. 4
-381. 4
-382. 3
-383. revision*
-384. 5
-385. 3
-386. 3
-387. 3
-388. 8
-389. 8
-390. 8
-391. revision*
-392. revision*
-393. 3
-394. 5
-395. revision*
-396. 5
-397. revision*
-398. 8
-399. 3
-400. 3
-401. 8
-402. 8
-403. 8
-404. 8
-405. 8
-406. revision*
-407. 8
-408. 4
-409. revision*
-410. 4
-411. 4
-412. revision*
-413. 4
-414. 4
-415. 4
-416. 8
-417. 8
-418. 4
-419. 4
-420. 12
-421. revision*
-422. 12
-423. 12
-424. 4
-425. 3
-426. revision*
-427. 3
-428. 3
-429. revision*
-430. 3
-431. 4
-432. 4
-433. 4
-434. 12
-435. revision*
-436. 12
-437. 12
-438. 12
-439. 12
-440. 4
-441. 4
-442. 4
-443. 4
-444. 4
-445. revision*
-446. 4
-447. 4
-448. 8
-449. revision*
-450. 8
-451. 8
-452. revision*
-453. 8
-454. 8
-455. 3
-456. 3
-457. 8
-458. 8
-459. 8
-460. revision*
-461. 8
-462. 8
-463. 8
-464. 8
-465. 1
-466. 1
-467. 3
-468. 3
-469. revision*
-470. 3
-471. 4
-472. 4
-473. revision*
-474. 5
-475. 5
-476. 8
-477. 8
-478. 4
-479. revision*
-480. 8
-481. revision*
-482. 8
-483. revision*
-484. revision*
-485. revision*
-486. revision*
-487. revision*
-488. 8
-489. 6
-490. 6
-491. revision*
-492. revision*
-493. 3
-494. revision*
-495. 3
-496. 3
-497. 3
-498. 3
-499. 3
-500. 3
-
-
-!!!office excellence study
-"d&k",
-"graphql",
-"typescript",
-"flexbox"
-"react-native",
-"html5 and latest css",
-
-1. 1<-- october,2019
-2. 1
-3. 2
-4. 3
-5. 3
-6. 3
-7. 3
-8. 1
-9. 1
-10. 2
-11. 6
-12. 6
-13. 1
-14. 1
-15. 6
-16. 6
-17. 6
-18. 5
-19. 5
-20. 5
-21. 2
-22. 5
-23. 5
-24. 5
-25. 5
-26. 1
-27. 5
-28. 5
-29. 1
-30. 3
-31. 3
-32. 3
-33. 5
-34. 3
-35. 3
-36. 3
-37. 6
-38. 6
-39. 6
-40. 6
-41. 3
-42. 3
-43. 3
-44. 3
-45. 3
-46. 1
-47. 2
-48. 2
-49. 2
-50. 3
-51. 6
-52. 4
-53. 3
-54. 3
-55. 3
-56. 3
-57. 4
-58. 3
-59. 4
-60. 6
-61. 4
-62. 4
-63. 4
-64. 3
-65. 3
-66. 3
-67. 3
-68. 4
-69. 3
-70. 3
-71. 3
-72. 4
-73. 3
-74. 3
-75. 4
-76. 6
-77. 4
-78. 4
-79. 4
-80. 6
-81. 6
-82. 6
-83. 4
-84. 6
-85. 6
-86. 5
-87. 5
-88. 2
-89. 2
-90. 2
-91. 6
-92. 6
-93. 6
-94. 2
-95. 5
-96. 2
-97. 2
-98. 5
-99. 2
-100. 5
-101. 2
-102. 2
-103. 4
-104. 2
-105. 3
-106. 2
-107. 4
-108. 4
-109. 4
-110. 3
-111. 5
-112. 5
-113. 3
-114. 3
-115. 3
-116. 5
-117. 5
-118. 5
-119. 3
-120. 3
-121. 3
-122. 3
-123. 3
-124. 4
-125. 4
-126. 3
-127. 4
-128. 2
-129. 2
-130. 2
-131. 2
-132. 3
-133. 3
-134. 4
-135. 4
-136. 4
-137. 4
-138. 5
-139. 5
-140. 4
-141. 2
-142. 4
-143. 4
-144. 5
-145. 3
-146. 3
-147. 5
-148. 3
-149. 3
-150. 1
-151. 1
-152. 1
-153. 5
-154. 4
-155. 4
-156. 4
-157. 5
-158. 4
-159. 4
-160. 4
-161. 4
-162. 1
-163. 1
-164. 1
-165. 1
-166. 1
-167. 5
-168. 5
-169. 1
-170. 1
-171. 1
-172. 1
-173. 4
-174. 4
-175. 4
-176. 2
-177. 4
-178. 1
-179. 1
-180. 3
-181. 4
-182. 4
-183. 4
-184. 5
-185. 5
-186. 1
-187. 1
-188. 5
-189. 3
-190. 1
-191. 1
-192. 3
-193. 5
-194. 3
-195. 5
-196. 1
-197. 1
-198. 4
-199. 4
-200. 4
-201. 5
-202. 2
-203. 5
-204. 4
-205. 5
-206. 5
-207. 5
-208. 5
-209. 5
-210. 5
-211. 2
-212. 5
-213. 5
-214. 4
-215. 4
-216. 4
-217. 4
-218. 4
-219. 2
-220. 2
-221. 4
-222. 2
-223. 1
-224. 1
-225. 4
-226. 4
-227. 2
-228. 5
-229. 4
-230. 4
-231. 4
-232. 5
-233. 2
-234. 2
-235. 5
-236. 5
-237. 5
-238. 2
-239. 5
-240. 5
-241. 2
-242. 4
-243. 4
-244. 1
-245. 2
-246. 1
-247. 4
-248. 5
-249. 5
-250. 5
-251. 6
-252. 6
-253. 6
-254. 6
-255. 5
-256. 5
-257. 4
-258. 1
-259. 4
-260. 4
-261. 6
-262. 6
-263. 6
-264. 6
-265. 6
-266. 5
-267. 4
-268. 6
-269. 6
-270. 6
-271. 4
-272. 4
-273. 4
-274. 4
-275. 4
-276. 4
-277. 4
-278. 6
-279. 6
-280. 6
-281. 6
-282. 5
-283. 5
-284. 1
-285. 1
-286. 1
-287. 1
-288. 1
-289. 1
-290. 5
-291. 1
-292. 4
-293. 1
-294. 1
-295. 4
-296. 4
-297. 5
-298. 5
-299. 5
-300. 5
-301. 5
-302. 5
-303. 5
-304. 4
-305. 4
-306. 4
-307. 5
-308. 5
-309. 3
-310. 5
-311. 5
-312. 5
-313. 5
-314. 5
-315. 5
-316. 3
-317. 2
-318. 3
-319. 3
-320. 3
-321. 2
-322. 2
-323. 3
-324. 3
-325. 2
-326. 2
-327. 2
-328. 2
-329. 5
-330. 3
-331. 3
-332. 3
-333. 2
-334. 2
-335. 2
-336. 2
-337. 5
-338. 2
-339. 5
-340. 5
-341. 5
-342. 2
-343. 5
-344. 2
-345. 2
-346. 2
-347. 4
-348. 3
-349. 3
-350. 3
-351. 3
-352. 4
-353. 4
-354. 3
-355. 3
-356. 2
-357. 2
-358. 2
-359. 2
-360. 3
-361. 3
-362. 2
-363. 2
-364. 2
-365. 3
-366. 3
-367. 3
-368. 3
-369. 2
-370. 3
-371. 1
-372. 3
-373. 1
-374. 1
-375. 1
-376. 3
-377. 3
-378. 1
-379. 1
-380. 3
-381. 1
-382. 4
-383. 4
-384. 4
-385. 2
-386. 2
-387. 1
-388. 4
-389. 4
-390. 4
-391. 4
-392. 4
-393. 4
-394. 4
-395. 2
-396. 4
-397. 2
-398. 2
-399. 2
-400. 1
-401. 1
-402. 5
-403. 1
-404. 4
-405. 4
-406. 1
-407. 5
-408. 1
-409. 5
-410. 5
-411. 1
-412. 5
-413. 5
-414. 5
-415. 5
-416. 1
-417. 1
-418. 1
-419. 5
-420. 5
-421. 2
-422. 2
-423. 2
-424. 5
-425. 2
-426. 2
-427. 5
-428. 5
-429. 2
-430. 2
-431. 5
-432. 4
-433. 5
-434. 4
-435. 4
-436. 4
-437. 4
-438. 2
-439. 4
-440. 4
-441. 4
-442. 5
-443. 5
-444. 4
-445. 4
-446. 4
-447. 2
-448. 4
-449. 2
-450. 5
-451. 5
-452. 5
-453. 5
-454. 5
-455. 5
-456. 5
-457. 2
-458. 2
-459. 5
-460. 5
-461. 4
-462. 4
-463. 2
-464. 2
-465. 2
-466. 3
-467. 3
-468. 3
-469. 2
-470. 2
-471. 2
-472. 3
-473. 5
-474. 5
-475. 3
-476. 3
-477. 5
-478. 5
-479. 5
-480. 6
-481. 6
-482. 6
-483. 6
-484. 5
-485. 6
-486. 6
-487. 6
-488. 3
-489. 3
-490. 3
-491. 6
-492. 6
-493. 6
-494. 6
-495. 6
-496. 6
-497. 2
-498. 2
-499. 6
-500. 5
 
 
 17
@@ -1752,3 +203,319 @@ admiin - piyush_admin - Jan@@2001
 13
 https://aws.amazon.com/blogs/aws/new-encrypted-ebs-boot-volumes/
 udemy - aws architect associate ebs 11-16
+
+
+December 
+
+14 - VPC
+---
+
+1.available private addresses 2.
+- virtual environment on AWS. Analogous to a data centre.
+s3 is a folder
+ec2 is a server.
+- vpc is a region specific . One region may have many availability zones. VPC can span multiple availability zone.
+- one availability zone can have multiple subnets. 
+cidr tutorial
+- implied router facilitates the communication between subnets setup in a region and from subnet to outside world. This doesn't have to be setup manually.
+- route table contain the entries for packet routing.
+- internet gateway - for communication with outside world
+- security groups - analogous to firewall - last line of defense. functions at nic level
+- nacl - work at subnet level - first line of defense.
+- virtual private gateway - 
+
+Implied router
+	- communication between subnets , subnet to vgw and subnet to igw
+	- central vpc routing function , that means 1 per vpc
+	- each subnet has a route table.
+- by default,1 subnet will be created in each availability zone for a region
+- 1 subnet cannot extend beyond an availability zone.
+- you can have resources that are not attached to any vpc , eg. internet gateway(igw) , you've to manually attach/detach them to/from vpc.
+- main route table in the vpc can't be deleted.
+
+vpc types and vpc security
+- hypervisor does the emulation from real os to virtual os.
+- security group functions at the eni level , 
+- security group is stateful, if one side journey is allowed, the other side journey is allowed too.
+- 
+
+Eni = virtual Nic eni is used on ec2 instances.
+nic = network interface card.
+eni = elastic network interface.
+
+security group is a virtual firewall over ec2 instances at the eni level. 
+- each ec2 instance can have upto 5 security groups 
+- security group rules are directional in nature.
+- public subnet should have an igw configured.
+- ec2 instance is configured within a subnet.
+- route tables 
+
+lecture 8
+	- how to view default security groups ? 
+	- how to view igw
+	- how to read the inbound and outbound rules of a security group , and why is the entries different for source  
+	- create your own security group.
+	- create custom echo request and response rules for your custom vpc
+	- when configuring source security groups for inbound/outbound rules , other vpc resources will not be available for selection because security group is a vpc resource.
+	- inbound requests all always allowed from the same security group.
+
+9
+	- within a vpc subnet routing is never a problem.
+	- 
+11.
+	- what are the default number of nacls
+	- within a subnet communication , NACL has no role to play.
+	- create custom inbound and outbound rules in nacl
+	- difference between default rules for custom and default NACL
+	- 
+tcp/ip packet headers
+
+	- no need to configure rule for intra-vpc communication as there is an uneditable default rule for the same.
+
+NAT instance is the placed in the public subnet . normal ec2 instance which is loaded with an ami and has the nat function in it. there is an entry in routing table for the private subnet source which has to go to internet to redirect it to the NAT instance.
+- NAT works as the router for a multiple connected sources (performing a PAT function) . public address translation.
+
+- NAT gateway is a managed service provided by the AWS.nat instance can work with public as well as elastic ip address, nat gateway on the other hand can work only with elastic ip addresses.
+
+- Vpc peering doesn't work if the vpc's have overlapping cidr blocks.
+- vpc peering connection is an AWS managed service.
+- if 2 vpc's are peered , they can refer each other's security group reference while defining the inbound and outbound rules.
+- placement group is a set of ec2 instances in the same availability zones.
+- vpc peering data happens over aws backbone and not in the internet. 
+- direct connect links cannot attach to transit gateway other than through a direct connect gateway.
+- dynamic route propogation in routing table.
+- 802.1Q , bgp ? 
+- there is no route propogation to the customer gateway , it's only between the vgw and the routing table.
+- route table -> vgw -> direct ( connectlink / vpn connection)
+
+- a vgw has a public ip end point.
+- direct connect gateway needs a private vif , it is a global resource which can connect to different vpc across accounts and regions. 
+- s3 and dynamo db have interface endpoints , other services have gateway endpoints.
+- lab - create a s3 gateway endpoint for private subnet on a vpc.
+- private dns setting in the interface end point is a must have if you want all the traffic for the was service to go through the AWS infrastructure and not exposed to the internet.
+
+https://aws.amazon.com/transit-gateway/ - details for AWS transit gateway
+https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html - direct connect 
+	private vif and public vif ? architecture diagram connecting customer gateway , vpc , direct connect and aws public services , indicationg public and private vif . 
+
+
+	To use AWS Direct Connect in an AWS Direct Connect location, your network must meet one of the following conditions:
+
+Your network is colocated with an existing AWS Direct Connect location. For more information about available AWS Direct Connect locations, see AWS Direct Connect Product Details.
+
+You are working with an AWS Direct Connect partner who is a member of the AWS Partner Network (APN). For information, see APN Partners Supporting AWS Direct Connect.
+
+You are working with an independent service provider to connect to AWS Direct Connect.
+
+In addition, your network must meet the following conditions:
+
+Your network must use single-mode fiber with a 1000BASE-LX (1310 nm) transceiver for 1 gigabit Ethernet or a 10GBASE-LR (1310 nm) transceiver for 10 gigabit Ethernet.
+
+Auto-negotiation for the port must be disabled. Port speed and full-duplex mode must be configured manually.
+
+802.1Q VLAN encapsulation must be supported across the entire connection, including intermediate devices.
+
+Your device must support Border Gateway Protocol (BGP) and BGP MD5 authentication.
+
+(Optional) You can configure Bidirectional Forwarding Detection (BFD) on your network. Asynchronous BFD is automatically enabled for AWS Direct Connect virtual interfaces, but does not take effect until you configure it on your router.
+
+To begin using your AWS Direct Connect connection, you must create a virtual interface. You can create a private virtual interface to connect to your VPC. Or, you can create a public virtual interface to connect to public AWS services that aren't in a VPC. When you create a private virtual interface to a VPC, you need a private virtual interface for each VPC that you're connecting to. For example, you need three private virtual interfaces to connect to three VPCs.
+
+describe the terms used for virtual interfaces - connection , vlan , peer ip addresses ??
+
+diagram for connecting direct connect to a transit gateway to a customer centre ??
+
+A Direct Connect gateway is a globally available resource. You can create the Direct Connect gateway in any public Region and access it from all other public Regions.
+
+direct connect inbound policies 
+	- clients must own the public prefixes and they must be registered as such 
+	- traffic must be destined to Amazon public prefixes 
+	- transitive routing between connections is not supported 
+	- aws dx performs inbound packet filtering to the validate that the source of traffic originated from your advertised prefix
+
+NAT instance ?? ELB ?? elastic IP ??  IPSec VPN ??
+
+2020
+January
+
+25th
+
+java ivq - 1 to 26.
+
+
+February
+27th - 
+spring-boot-100-notes.
+git - in 28 minutes / spring-boot-masterclass
+
+componentScan and Autoconfiguration in spring boot ? 
+@SpringBootApplication
+
+create a login controller 
+@RequestMapping ? @Controller ? 4 annotations for creating a controller ? 
+how to change the logging level of a package ? how to set the method to not search for a view and return the response instead ? 
+@Component vs @Repository vs @Service
+	- dispatcher servelet will look for @RequestMapping on classes which are annotated with @Controller but not with @Component
+	- 
+
+what is @Autowired
+how to declare persistenceexceptiontranslationpostprocessor
+
+check the configurations in spring-boot-starter-parent , spring-boot-starter-web , 
+- create a jsp and send it as a response
+View resolver ? 
+
+can request mapping  be used on a class
+
+how to pass request parameters to controller/ view ? getting the value from model in view 
+request attribute vs request param
+
+how does dispatcher servlet work 
+
+specify http method in request RequestMapping
+
+8.
+how does request param get its default . 
+- declare a service bean and inject it into controller
+
+9.
+multiple values for component scan ? 
+
+10.
+- create todo model and service , todo controller with list todos  , 
+
+11.
+- model 1 vs model 2 architecture
+12.
+- how to set session attributes in model
+
+13.
+
+
+15.
+- webjars ? 
+- 
+
+18.
+- add form backed bean 
+- model vs modelmap - use model map to gracefully handle binding errors
+
+19.
+- 
+
+20
+- set a date format across the application
+
+22.
+- how to change the default login page of spring security
+- configure spring security 
+- how to configure spring security to use Octa
+- 
+
+spring cloud
+--------------
+
+github - in28minutes/spring-microservices
+controller vs restcontroller
+@RequestBody
+servleturicomponentsbuilder
+how to map exception to http status
+responseentityexceptionhandler
+controlleradvice
+how to define a common error handling across all containers ? @controller advice and @exceptionhandler
+responseentity? 
+
+26.
+ - versioning using headers , uri , params , mime 
+ - 
+
+ 31.
+ - how to use spring data repository for entity management.
+ - 
+
+ Spring cloud 
+ - spring cloud config server for different configuration in different environments. 
+ - ribbon is the load balancer 
+ - eureka is the naming server 
+ - Feign - easier rest clients
+ - zipkin distributed tracing 
+ - zuul netflix api gateway
+ - hysterix for fault tolerance 
+
+project - in 28 minutes/spring-microservices
+
+- authentication for spring cloud config server 
+- how to read configuration values using spring boot annotation
+- 
+- add spring.cloud.config.server.git.uri=file://<path-to-local-git-repository-root>
+- @EnableConfigServer annotation helps to retrieve config values from spring cloud config server
+- config values will only read by cloud config server after commit to the repository
+- use bootstrap.properties instead of application.properties . bootstrap should only contain the name of the application and the url of spring cloud config server
+- spring.profiles.active=dev , either set through vm arguments/ java arguments
+- vm argument overrides application.properties
+- new RestTemplate.getForEntity(url, responseholderclass, mapperForVariables)
+
+ribbon 
+<service-name>.ribbon.listOfServers
+
+why is ribbon a bad idea. 
+- 
+@EnableFeignClient
+@EnableEurekaServer
+@EnableDiscoveryClient
+	- eureka.client.service-url.default-zone=http://localhost:8761/eureka
+localhost:8761 / for getting eureka console 
+
+@FeignClient
+
+@EnableZuulProxy
+
+
+ZuulLoggingFilter extends ZuulFilter
+	- filter Order ? 
+	- shouldFilter ? 
+	- filterType ? "pre/post/error"
+	- run ? - 
+
+- how to write a Zuul filter for authentication ? 
+
+@EnableWebSecurity
+ extends WebSecurityConfigurerAdapter
+
+
+ Sleuth 
+ - Always Sampler 
+ - sleuth-zipkin dependency 
+ - zipkin runs over rabbit mq
+ - 
+
+ @EnableZipkinServer
+
+ dependency - spring-cloud-starter-bus-amqp
+
+ spring-cloud-starter-hystrix
+ @EnableHystrix
+ @HystrixCommand
+
+
+Feb
+
+12th 
+spring-cloud-starter-hystrix
+ @EnableHystrix
+ @HystrixCommand
+ @ControllerAdvice
+ @ResponseStatus
+ ResponseEntity
+
+
+ unit tests
+ -----------
+ spring-boot-starter-test
+ how to verify method calls with argument types verify(a.call,times) , atleastonce , atMost
+ mock dependency injections @Mock @InjectMOcks
+ argument capture - ArgumentCaptor<T> lj  = ArgumentCaptor.for(T.class) captor.capture , captor.getValue() , captor.getAllValues()
+ mock does not retain behavior of the mocked class whereas a spy retains the behavior of the class and only specific methods can be stubbed
+ @WebMvcTest(T.class)
+
+ 
