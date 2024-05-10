@@ -1,0 +1,12 @@
+1.container def 2.virtual machines vs containers 3. container architecture with os diag 4. create a docker image with a hello world node program and run it by mapping it with a different port * 5.run vs cmd in docker 
+- in a loose sense ,images are classes and containers are its objects . images are the blueprints ( or dna)  , container is the living and breathing software 
+6.RUN vs CMD 
+- images are layer based , every instruction represents a layer 
+7.demo , how to ensure npm install doesn't run when source code changes *  8. containers don't copy image content , they just add an execution environment 9.docker run vs docker start 10.attached vs detached container 11.run an image in detached mode 12.see the logs of a running container in detached mode 13. see the logs of a running container and attach to it 14.how and why to launch container in interactive mode 15. docker start a container in interactive mode 16.how to remove containers 17.docker list images 18.docker remove images 
+
+used images ( by started or stopped container) cannot be removed 19.command to remove all unused images 20.remove a container when it exits * 21.how to inspect an image and explain the output attributes * 22. how to copy files into a running container 23.assign your own name to a container 24.assign your own tag to an image 25.create a docker image and share it * 26.how to go inside a running container 27. docker files get lost when container is removed not when container is stopped 
+- volumes are folders on host machines hard drive which are mounted("made available", mapped) into containers. 
+- volumes persist if a container shuts down . if a container restarts and mounts a volume , any data inside of a volume is available in the container. 
+
+named volumes are not deleted unlike anonymous volumes 
+28. write something from a container , remove it and then access the data by running another container 29.how to clear unused volumes 30.volumes vs bind mounts 31.create a read only bind mount for a container 32.
