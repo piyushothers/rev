@@ -1,0 +1,9 @@
+10
+
+Docker volumes - Udmey Maxmullian Schwarzemuller course
+ 26.how to go inside a running container 27. docker files get lost when container is removed not when container is stopped 
+- volumes are folders on host machines hard drive which are mounted("made available", mapped) into containers. 
+- volumes persist if a container shuts down . if a container restarts and mounts a volume , any data inside of a volume is available in the container. 
+
+named volumes are not deleted unlike anonymous volumes 
+28. write something from a container , remove it and then access the data by running another container 29.how to clear unused volumes 30.volumes vs bind mounts 31.create a read only bind mount for a container 32.
