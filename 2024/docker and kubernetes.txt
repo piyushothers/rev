@@ -1,0 +1,80 @@
+1.container def 2.virtual machines vs containers 3. container architecture with os diag 4. create a docker image with a hello world node program and run it by mapping it with a different port * 5.run vs cmd in docker 
+- in a loose sense ,images are classes and containers are its objects . images are the blueprints ( or dna)  , container is the living and breathing software 
+6.RUN vs CMD 
+- images are layer based , every instruction represents a layer 
+7.demo , how to ensure npm install doesn't run when source code changes *  8. containers don't copy image content , they just add an execution environment 9.docker run vs docker start 10.attached vs detached container 11.run an image in detached mode 12.see the logs of a running container in detached mode 13. see the logs of a running container and attach to it 14.how and why to launch container in interactive mode 15. docker start a container in interactive mode 16.how to remove containers 17.docker list images 18.docker remove images 
+
+used images ( by started or stopped container) cannot be removed 19.command to remove all unused images 20.remove a container when it exits * 21.how to inspect an image and explain the output attributes * 22. how to copy files into a running container 23.assign your own name to a container 24.assign your own tag to an image 25.create a docker image and share it * 26.how to go inside a running container 27. docker files get lost when container is removed not when container is stopped 
+- volumes are folders on host machines hard drive which are mounted("made available", mapped) into containers. 
+- volumes persist if a container shuts down . if a container restarts and mounts a volume , any data inside of a volume is available in the container. 
+
+named volumes are not deleted unlike anonymous volumes 
+28. write something from a container , remove it and then access the data by running another container 29.how to clear unused volumes 30.volumes vs bind mounts 31.create a read only bind mount for a container 32. crud operations on volumes 33. use case for using copy vs using a bind mount 34.how to stop some files from getting copied into docker container 35.arguments vs environment variables and their use case 36. use env to change the port on which node program listens * 37.what if a variable is in both cmd and in env-file 38. how to ensure security of environment variable 39. how to use build arg to change the port on which node program runs * 40. why does declaring variables closest to where they are needed principle is important in docker 41.how to connect to host machines 42.how to get the ip address of running containers * 43.docker network crud operations  44. make a rest request from one container to another 45.different types of docker network drivers and how do they work 46.why is docker compose needed 
+46. difference between development and production docker builds 
+
+sudo yum update -y
+sudo yum -y install docker
+ 
+sudo service docker start
+ 
+sudo usermod -a -G docker ec2-user
+Make sure to log out + back in after running these commands.
+
+Once you logged back in, run this command:
+
+sudo systemctl enable docker
+Thereafter, you can check whether Docker is available by running:
+
+docker version
+Also see: https://stackoverflow.com/questions/53918841/how-to-install-docker-on-amazon-linux2/61708497#61708497
+
+47.
+-  --rm and -d are default in docker compose 
+- all services part of a docker file are by default created in a separate network of their own 
+- all named values should be declared separately. 
+- different containers can use the same volume in the same container 
+- always read the meaning of all shortcuts , so that you never delete something that you don't intend
+47. how to use different docker files for different envs 48. how to ensure dependency sequence in docker compose 49. how to force docker compose to build a new image every time 50.how to have custom container names created by docker compose 51.how to read log files inside a container 52. how to override default starting container command  53.docker-compose up vs build vs exec vs run * 
+- if you don't specify a run command , run command of the base image will be executed 
+- :delegated use ? 
+- 
+54.
+
+C:\Users\piyus\work\docker\utility\Dockerfile
+
+54. build an image on local machine and deploy it on aws ec2* 55.use of docker pull 56. task vs service in aws 57. create a web application image , upload it on docker hub and use that image to run that application using a public ip over ecs * 58. deploy a multi container app with frontend and backend on ecs * 59.what is entry point in docker file 60.how to connect from one container to another container in the same cluster but different task / different service / different cluster 61. environment files priority in docker https://docs.docker.com/compose/environment-variables/envvars-precedence/#:~:text=When%20the%20same%20environment%20variable,of%20setting%20environmental%20variables%20takes. 
+62. what is essential container in aws 63. task vs service in aws ecs 64. EFS vs bind mount in ECS 65. EBS vs EFS 66. how to combine multiple images into 1 file 67.how to have different docker files for different environments 68. how to build images of different stages in a docker file 69. 
+
+
+
+atlas - username , aaAIioylxJgTgGCx 
+mongodb+srv://username:<password>@cluster0.nl1q2ou.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+mongodb+srv://username:aaAIioylxJgTgGCx@cluster0.nl1q2ou.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+Kubernetes
+1.Pod , worker node , proxy , master node , control plane , cluster 2. Architecture diagram for kubernetes 3. components and their responsibilites in a worker node 4. components and their responsibilites in a master node 5.use of kubectl 6.define pods in terms of containers , resources and ip addresses 
+- pods are defined to be ephemeral . Kubernetes will start,stop and replace them as needed 
+- you directly don't control pods , instead you use deployments to set the desired end state 
+- deployments manage a type of pod for you , you can also create multiple deployments 
+
+7.describe deployment object 8. rolling vs blue green deployment 
+- kubectl create deployment <pod-name> --image=<image-address>
+- minikube start , status 
+- kubectl get deployments 
+- kubectl get pods 
+- kubectl get services 
+- kubectl expose deployment <deployment_name> --type=LoadBalancer/ClusterIP/NodePort --port=<portNumber>
+- minikube service <app-name>
+- kubectl scale 
+- kubectl set image <deployment-name> <container-name>=<new-image-name>
+9.service object , description and arch diagram 10. what is replica set 11.describe service 12. ClusterIP vs nodePort vs loadbalancer 13.expose a service with load balancer cluster type 14. how to autoscale* 15.change code and update deployment * 
+- kubectl rollout status <deployment-name>
+16.how to rollback problematic image *
+- kubectl rollout undo <deployment-name>
+- kubectl rollout history <deploymentname> --revision=<revision#>
+
+17. matchLabels vs matchExpression selectors 18.create a deployment declaratively * 19.kubectl vs minikube 20.use of --build flag in docker compose up 21. different commands of docker compose 22.why can't we directly add volumes to containers while dealing with kubernetes 23.docker vs kubernetes volumes 24.emptyDir driver volume 25. disadavntages of emptyDir 26. volumes vs persistent volumes 27.Volume vs block system mode 28. types of access modes and their meaning 29.create a host path , network file system persistent volume * 30. storage class of a persistent volume 31. use of service in k8s 
+- ClusterIP , can only be reached from inside cluster 
+- nodePort - IP address depends on node 
+- LoadBalancer - IP address doesn't depend on node 
+32. what are services in docker 33.namespace in kubernetes and why is it used for 34.
