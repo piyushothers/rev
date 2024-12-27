@@ -1,0 +1,13 @@
+
+-------1---------start
+- process is a unit of resources , a thread is a unit of execution.
+1.Core vs processor 2. 1 java thread = 1 OS thread 3.> publish subscribe communication model 4. java.util.Concurrent.Flow subscriber vs org.reactivestreams.subscriber 5.Mono 6. Flux 7.  Subscriber vs CoreSubscriber 8. differences in mono created from supplier vs callable 9.create Mono from completeable future * 10.How to create a mono from completeable future which is lazy in nature i.e doesn't execute unless a subscriber requests an item 11.EventLoopGroup ? 12. LoopResources ? 13.what are virtual threads and how are they different from reactive programming 14.create flux from array , list and stream * 15.what happens when a flux is subscribed twice 16.explore log object used with Flux to log the flux information 17. flux concat vs merge vs orderby vs priority 18.why is flux thread safe 19.how to use flux sink 20. fluxSink onRequest 21.show how flux sink is thread safe * 22.use case for synchronous sink 23.how to handle state management for a flux generator 24.what happens if a subscriber subscribes multiple times with a publisher 25.
+
+- reactive streams is specifiication while Reactor is an implementation 
+- subscription can be cancelled early , however a stream cannot be cancelled early. 
+- Publisher - subscribe(subscriber)
+- Subscriber - onSubscribe(subscription) , onNext , onError , onComplete 
+- Subscription - subscription.cancel , request(n)
+
+
+------1-----------end
