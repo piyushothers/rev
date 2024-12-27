@@ -1,0 +1,45 @@
+-part1-
+? question * wap > diagram !explore
+
+https://github.com/eazybytes/spring-security
+
+6
+spring boot starter security dependency 
+define default user name and properties using application.properties
+10
+1.spring security internal flow diagram >> 2. spring security internal flow for default username password authentication flow >
+12.
+- print all spring security logs * 
+13.
+ 3.use of @Order in security filter chain 4.where is the default security configuration defined in spring 5. wap to authenticate and allow some urls * 6.which filters are used for formLogin and httpbasic style of login for extraction of credentials 7.how to send credentials in http basic format 8.explore methods in formloginconfigurer and httpbasicconfigurer 9. explore userDetailsService and all the classes that implement it 10.explore userDetailsManager interface and types that implement it 11.create UserDetailsService for a hardcoded  user and an admin user * 12. explore password encoder 13.create default password encoder bean * 14.type hierarchy of userdetails and authentication interfaces > 15. userdetails vs authentication interface 16. find users.ddl and execute the same for your schema * 17.setup jdbc code to store users in database 18.use of entityscan and enablejpa repository 19.Use of enablewebsecurity 20. explore AuthenticationManager and 	ProviderManager interfaces
+
+ -part2-
+ 21.Parent class of all tokens ?
+
+22. How to use Authentication token 23. how does authenticate method in Provider manager works for all authenticators 24.how to activate a bean only for production 25. how to conditionally inject a bean * 26. how to allow only https traffic * 27. logic in ExceptionTranslationFilter 28.Logic in AuthenticationEntryPoint 29.how to import 1 property file into another 30. how to control concurrent sessions a) by not allowing new sessions b) by invalidating previous sessions c) which configuration to change ? 31. types of session fixation attack strategies 32. AuthenticationEvents in spring and the publisher 33.explore AuthenticationEventPublisher and AbstractAuthenticationEvent 34.implements listeners for authentication event 35.use of @WebMVCConfigurer 36. how to configure login page , default failure url  and default success url 37. how to programmatically configure the behavior on successful and failed login 38. springsecuritycontext and springsecuritycontext holder 39.SecurityContext holding strategies 40.how to specify cache control using backend *
+
+-part3-
+41.how to ensure that you never return password back to the UI 42. how to specify cors annotation on a rest class basis 43. how to specify cors configuration programmatically on the application level * 44.csrf vs cors 45. how does browser protect against csrf attack 46.types of implementations of csrf security . 47.explore csrf filter and its order 48.how to create your own custom filter and set its order 49.how to write security config to selectively authenticate some requests and allow all paths for some 50.disable form login / http basic style of authentication 51.
+51. explore csrf configuration slides section 8
+
+Section 9
+52.Explore GrantedAuthority and its implementing classes 53. how is authentication , userdetails and granted authority classes related 53.create authorities to map authorities table 54. how to do 1 to many and many-one mappings in jpa * 55. Explore access() and how to use spEL to provide custom authorization 56.role vs authority 57. how to change role prefix 58.how to view all security filters in action * 59. generic filter bean ! 60.Once per request filter ! 
+
+-part4-
+section 11
+61.opaque tokens vs jwt token 62.structure of a jwt token and the pseudocode to verify it > 63.generate a jwt token when authentication is successful * 64.validate if a jwt token is valid * 65. create an api to authenticate and generate jwt token using custom authentication manager * 
+
+section 12
+66. types of method level invocation security approach 67. explore AuthorizationManager* classes 68. use prefilter to filter out request for all users with name test * 
+
+section 13
+69. grant types in oauth2 and pseudo code for each grant type > 70. authorization code vs implicit grant type 71. oauth.com/playground ! 72.oauth2 playground device code grant type flow 73.open id connect ? 74. open id vs oAuth2 75. why was openid created over oauth2 76. read more about OIDC online 77. what is the use of nonce in the id token 78. 
+
+section 14
+78. ClientRegistrationRepository 79. ClientRegistration 80.
+-part5-
+83
+- How to enable JSession id 
+84.
+- how to get cookie using ts library 
+85.
