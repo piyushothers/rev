@@ -1,0 +1,50 @@
+-part1-
+Sij = set of activities that start after ai finishes and aj starts 
+Aij = maximal set from Sij 
+
+assuming ak belongs to Aij 
+
+so now we have to find compatible activities in set Sik and Skj 
+i  k  j 
+Aik i.e the maximal set from actvities Sik = Aij intersection Sik 
+&
+Akj i.e the maximal set from activities Skj = Aij intersection Skj 
+
+Aij = Aik union {ak} union Akj 
+
+greedy solution might not be the only solution , however in greedy problems the greedy choice is definitely in some of the optimal solution 
+
+determine the optimal substructure of the problem 
+develop a recursive solution 
+prove that it is safe to make a greedy choice 
+prove that if we make a greedy choice then only 1 subproblem remains 
+develop a recursive algorithm that implements the strategy 
+convert the recursive solution into an iterative one 
+
+more generally 
+- cast the optimization problem as one in which we make a choice and then are left with only 1 problem to solve 
+
+- prove that there is always an optimal solution to the original solution that makes the greedy choice  ( this solution may not be the only one ) , so that the greedy choice is alway safe. 
+
+- demonstrate optimal substructure by showing that , having made the greedy choice , what remains is the subproblem that if we made the greedy choice we have made , we arrive at an optimal solution the original subproblem . 
+
+- a dynamic programming solution depends on the solution to subproblems . code wise we may time either developing a tabular solution or through memoization . in any case , the dynamic programming approach solves the subproblems first and then moves on to the top . a greedy programming approach solves the problem top down , it makes a greedy choice at the top and then proves that the greedy choice is included in the overall solution ( might not be the only one). we then combine the solutions at each step. Generally in a greedy approach we don't ask for the exact details of the elements that are picked for the solution as there can be many but we only ask the broader details eg. time taken or number of elements picked. 
+
+given a set of x1,x2,x3...xn points on the real line , determine the smallest set of unit length closed intervals that contain all of the given points 
+
+assume x1<x2<x3...<xn 
+
+greed1 - move each set as close to x.i in the remaining set of points , since we have to cover all the points , remove the set of points that are covered by A.i and then solve for other problems 
+A.i starts at x.i and ends at x.i + 1 , let x.j be the largest x smaller x.i + 1 
+
+Lemma 16.2 
+if C is a set of characters for which an optimal huffman code exists and if there are alphabets x and y which are the alphabets with lowest frequencies then x and y differ only in 1 bit in the binary tree of the code 
+
+let a and b be 2 characters of maximum depth in the tree T where a.freq <= b.freq and x.freq <= y.freq which proves   y x 
+b a 
+b.f a.f y.f x.f in non-increasing order 
+we can have x.f = a.f or y.f = b.f , however if x.f = b.f then b.f = a.f = y.f = x.f 
+so lemma holds true trivially 
+in order to make the proof non-trivial , assume x.f <> b.f which means x <> be
+
+-part2-
