@@ -11,3 +11,5 @@
 
 
 ------1-----------end
+
+25. transform vs map 26. how does timeout and switchIfEmpty operators work 27. onErrorReturn and its various overloaded forms 28.onErrorComplete and its overloaded forms 29. onError Continue and its overloaded forms 30. defaultIfEmpty 31.
