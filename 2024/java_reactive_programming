@@ -12,4 +12,7 @@
 
 ------1-----------end
 
-25. transform vs map 26. how does timeout and switchIfEmpty operators work 27. onErrorReturn and its various overloaded forms 28.onErrorComplete and its overloaded forms 29. onError Continue and its overloaded forms 30. defaultIfEmpty 31.
+25. transform vs map 26. how does timeout and switchIfEmpty operators work 27. onErrorReturn and its various overloaded forms 28.onErrorComplete and its overloaded forms 29. onError Continue and its overloaded forms 30. defaultIfEmpty 
+31..hot vs cold publishers 32. how to convert a cold publisher into a hot publisher * 33.flux.share vs flush.publish 34. resubscription in flux 35. how do ref counts works for flux 36. flux.autoconnect and how does it differ from refCount 37. how does replay work * and its use cases 38.
+
+
