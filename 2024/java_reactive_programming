@@ -13,6 +13,13 @@
 ------1-----------end
 
 25. transform vs map 26. how does timeout and switchIfEmpty operators work 27. onErrorReturn and its various overloaded forms 28.onErrorComplete and its overloaded forms 29. onError Continue and its overloaded forms 30. defaultIfEmpty 
-31..hot vs cold publishers 32. how to convert a cold publisher into a hot publisher * 33.flux.share vs flush.publish 34. resubscription in flux 35. how do ref counts works for flux 36. flux.autoconnect and how does it differ from refCount 37. how does replay work * and its use cases 38.
+31..hot vs cold publishers 32. how to convert a cold publisher into a hot publisher * 33.flux.share vs flush.publish 34. resubscription in flux 
+35. how do ref counts works for flux 36. flux.autoconnect and how does it differ from refCount 37. how does replay work * and its use cases 
+38. how does flux subscribeOn work 39.different types of schedulers in react 40. virtual threads in reactor 41. how does publish on work 42.publishOn vs subscribeOn
+43. how to make an http call using nio* 44. how to make http call in a reactive manner * 45.parallelOn 46.runOn 47.Flux create vs flux generate 
+48. Demo how backpressure works * 49.limit rate 50. what happens when limit rate is greater than queue size 51.types of backpressure strategies 
+52.demo buffer backpressure * 53.demo error backpressure * 54.demo drop backpressure strategy * 55.demo latest backpressure strategy * 56.startWith
+57.concatWith 58.concatDelayError 59.explore record type in java 60. how does flatMap work 
+61. how does flatMap work and how does it solve infinite intermediate flux problem 62.how does concatMap work 63. how does then operator work
 
 
