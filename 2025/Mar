@@ -1,4 +1,5 @@
-15.
+D15.
+
 Azure - Ranga
 1.how to increase availability of azure disk types 2.what is availability set ? 3.what are fault domains and update domains 4.scale sets 
 5. create a virtual machine scale set 6.list steps required to create a virtual machine set 7. types of public ip and differences between them 
@@ -10,3 +11,21 @@ spot instances are good for batch jobs / non-time critical jobs that can withsta
 9.IAAS vs PAAS 10.Services provided by container orchestration 11. create a hello world nodejs function app . 12.SaaS 13.IAAS vs PAAS vs SAAS as checklist diagram 14.
 
  - 10 - service discovery , autoscaling , load balancing , health checks 
+D16.
+
+14.Block storage vs file storage vs object storage 15.Core storage services in Azure 
+16. data redundancy options (4) and describe each of them 
+17.define read access geo redundancy option and what is the need for it 
+18. types of RAGR and define(2) , difference between the 2 options highlighting the use case 
+19.region pairs and what are they used for 20.types of disk storage and what are their use cases (4) 
+21.unmanaged disks and why they shouldn't be used 22.
+
+Azure files 
+- managed file shares
+- connect from multiple devices concurrently 
+	- from cloud or on-premises
+	- from different OS
+- supports server message blocks(SMB) and network file system (NFS) protocols 
+
+- file share is analogous to S3 in azure 
+22.Azure file sync 23.Access tiers in azure blob storage 24. considerations for accessing data in archive tier
