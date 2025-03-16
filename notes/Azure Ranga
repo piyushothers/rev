@@ -1,5 +1,11 @@
-1.how to increase availability of azure disk types 2.what is availability set ? 3.what are fault domains and update domains 4.scale sets 5. create a virtual machine scale set 6.list steps required to create a virtual machine set 7. types of public ip and differences between them 8.availability sets vs scale sets 9.
+1.how to increase availability of azure disk types 2.what is availability set ? 3.what are fault domains and update domains 4.scale sets 
+5. create a virtual machine scale set 6.list steps required to create a virtual machine set 7. types of public ip and differences between them
+8.availability sets vs scale sets 9.
 
 - an availability set is a logical grouping of VMs within Azure that ensures high availability . it distributes the VMs across multiple fault domains and update domains to minimize downtime during maintenance or hardware failures. 
 
 spot instances are good for batch jobs / non-time critical jobs that can withstand infrastructure failures 
+
+9.IAAS vs PAAS 10.Services provided by container orchestration 11. create a hello world nodejs function app . 12.SaaS 13.IAAS vs PAAS vs SAAS as checklist diagram 14.
+
+ - 10 - service discovery , autoscaling , load balancing , health checks 
