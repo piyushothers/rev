@@ -38,3 +38,11 @@ patadmin P@ssw0rd5601
 - Synapse analytics can process petabytes of data 
 33. difference between olap and oltp storage mechanisms 
 34.Azure cosmos features
+35.why is peering used 
+36.difference between DDos security plans 
+- Azure firewall is analogous to Network access control list in aws . It is stateful 
+37.Features of Azure firewall 
+38. Azure firewall vs web-application firewall 
+39.Network security group and its difference with Azure firewall 
+40.What is Azure private link and what is its usecase 
+41.bastion host - use case and advantages 
