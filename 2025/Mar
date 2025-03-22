@@ -29,3 +29,17 @@ Azure files
 
 - file share is analogous to S3 in azure 
 22.Azure file sync 23.Access tiers in azure blob storage 24. considerations for accessing data in archive tier
+D22
+25.
+
+database
+25. how to handle when a. data is critical(low RPO) and no-downtime(low RTO) is expected 
+b. data is critical(low RPO) and some downtime (high RTO) is tolerable c. data is non-critical 26.Strong consistency
+vs Eventual Consistency vs Read-after-write consistency 27. properties of relational databases and use cases 28.
+OLTP and its features 29.features of azure sql storage 30. features of azure database for mysql 31.azure
+for postgresql 
+patadmin P@ssw0rd5601
+32.Synapse analytics and why is it used for business intelligence applications 
+- Synapse analytics can process petabytes of data 
+33. difference between olap and oltp storage mechanisms 
+34.Azure cosmos features
