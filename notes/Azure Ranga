@@ -46,3 +46,9 @@ patadmin P@ssw0rd5601
 39.Network security group and its difference with Azure firewall 
 40.What is Azure private link and what is its usecase 
 41.bastion host - use case and advantages 
+Public cloud vs private cloud vs hybrid cloud 
+----------------------------------------------
+42. 2 ways to connect on-site to azure 
+43. 3 ways to use azure vpn over internet for on-premise to cloud connection
+44.advantages and disadvantages of AzureExpressRoute 
+45.
