@@ -56,4 +56,15 @@ Public cloud vs private cloud vs hybrid cloud
 42. 2 ways to connect on-site to azure 
 43. 3 ways to use azure vpn over internet for on-premise to cloud connection
 44.advantages and disadvantages of AzureExpressRoute 
-45.
+45.microsoft entra id vs active directory 
+46.microsoft entra domain services - use case(4) 
+47.options provided by entra id for passwordless authentication - 
+48. subscription has a many-to-one trust relationship with a microsoft entra id directory . 
+49.cspm vs cwp - abbreviation and differences 
+- cspm and cwp - both are provided by microsoft defender for cloud 
+50. JIT vm access ??
+51.SIEM vs SOAR 
+52.Azure Sentiner 
+53. Azure key vault 
+54. zero trust principles 
+55.
