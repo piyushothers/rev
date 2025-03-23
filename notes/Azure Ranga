@@ -62,4 +62,7 @@ Public cloud vs private cloud vs hybrid cloud
 52.Azure Sentiner 
 53. Azure key vault 
 54. zero trust principles 
-55.
+Azure support plans 
+- azure log analytics can store data in log analytics workspaces of which multiple instances can be configured
+- recommendations - azure advisor 
+- azure health -- azure service health -- azure resource health
