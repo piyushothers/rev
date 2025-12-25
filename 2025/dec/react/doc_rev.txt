@@ -1,0 +1,40 @@
+- each effect in your code should represent a separate synchronization process. 
+- reduce the number of useEffect and also keep the effect as slim as possible 
+- sometimes effect can just be removed by introducing a key and refactoring the component . 
+
+useEffect dependency on a useCallback or useMemo object which itself depends on a useState value indicates that 
+the callback or memo definition should be moved inside effect and the effect should have dependency on the state
+values
+
+ideally , most effects in your application should be replaced by custom hooks , either written by you or the 
+community
+
+updating effect based on props , state . just define the values below all the state declarations 
+
+- resetting all state when a prop changes - move everything that changes into a different component and use the 
+prop to create a key for the component . inside the component , define everything from the beginning
+
+- use effects only for the code that should run because the component was displayed to the user . 
+
+- if useEffect calls a function from prop that updates the parent state , it is of no use since updating parent
+state re-renders the component itself . better to either a) not maintain the state in the child . b) here instead
+of using effect , make the changes in the event handler 
+
+before using context 
+	- try passing props 
+	- extract components and pass jsx as children 
+	
+- write the components first without using any state or any effect using mock data if possible 
+- explore immer	
+
+- the state of a component is preserved as long as it is rendered in the same position in the tree 
+- keys are not globally unique , they only specify the position within the parent 
+- if your component needs to store some value , but it doesn't affect the rendering logic , use useRef
+- useImperativeHandle
+- flushSync
+- each effect in your code should represent a separate and independent synchronization process 
+- useSyncExternalStore
+- effect events in react 
+- useEffectEvent 
+- useLayoutEffect 
+- 
